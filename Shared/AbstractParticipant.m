@@ -8,6 +8,7 @@
 
 #import "AbstractParticipant.h"
 
+
 @implementation AbstractParticipant
 
 @end

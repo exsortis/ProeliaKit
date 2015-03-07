@@ -8,6 +8,7 @@
 
 #import "ActiveEncounter.h"
 
+
 @implementation ActiveEncounter
 
 @end

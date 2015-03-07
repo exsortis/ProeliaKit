@@ -10,7 +10,7 @@
 @import Foundation;
 
 
-typedef NS_ENUM(NSInteger, SLParticipantType) {
+typedef NS_ENUM(NSInteger, ParticipantType) {
     ParticipantTypePC,
     ParticipantTypeAdversary,
     ParticipantTypeObject,

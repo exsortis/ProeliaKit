@@ -8,6 +8,7 @@
 
 #import "ActiveEncounterTimelineEntry.h"
 
+
 @implementation ActiveEncounterTimelineEntry
 
 @end

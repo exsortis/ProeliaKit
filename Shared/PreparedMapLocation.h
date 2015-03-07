@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AbstractMapLocation.h"
 
-@interface PreparedMapLocation : NSObject
+
+@interface PreparedMapLocation : AbstractMapLocation
+
+// -- Attributes --
+
+// -- Relationships --
 
 @end

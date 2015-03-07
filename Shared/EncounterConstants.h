@@ -9,15 +9,6 @@
 @import Foundation;
 
 
-typedef NS_ENUM(NSInteger, SLEncounterSort) {
-    EncounterSortName,
-    EncounterSortCategory,
-    EncounterSortCreationDate,
-    EncounterSortModifiedDate,
-    EncounterSortType,
-    EncounterSortGameSystem,
-};
-
 typedef NS_ENUM(NSInteger, SLEncounterType) {
     EncounterTypeActive,
     EncounterTypePrepared,

@@ -7,7 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AbstractMap.h"
 
-@interface PreparedMap : NSObject
+
+@class PreparedEncounter;
+
+@interface PreparedMap : AbstractMap
+
+// -- Attributes --
+
+// -- Relationships --
+
+@property (nonatomic, weak) PreparedEncounter* encounter;
+@property (nonatomic, copy) NSArray* tiles; // [PreparedMapTile]
 
 @end

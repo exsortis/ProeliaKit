@@ -8,6 +8,7 @@
 
 #import "PreparedMapLocation.h"
 
+
 @implementation PreparedMapLocation
 
 @end

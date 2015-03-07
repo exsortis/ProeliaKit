@@ -8,6 +8,7 @@
 
 #import "AbstractMapLocation.h"
 
+
 @implementation AbstractMapLocation
 
 @end

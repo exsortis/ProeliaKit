@@ -12,13 +12,13 @@
 
 #define CONDITION_IMAGE_SIZE            (16.0f)
 
-typedef NS_ENUM(NSInteger, SLConditionType) {
+typedef NS_ENUM(NSInteger, ConditionType) {
     ConditionTypeNormal,
     ConditionTypeOngoing,
     ConditionTypeCustom,
 };
 
-typedef NS_ENUM(NSInteger, SLConditionEnd) {
+typedef NS_ENUM(NSInteger, ConditionEnd) {
     ConditionEndSave,
     ConditionEndStartOfTurn,
     ConditionEndEndOfTurn,
@@ -27,7 +27,7 @@ typedef NS_ENUM(NSInteger, SLConditionEnd) {
     ConditionEndFixed,
 };
 
-typedef NS_ENUM(NSInteger, SLConditionSource) {
+typedef NS_ENUM(NSInteger, ConditionSource) {
     ConditionSourceSelf,
     ConditionSourceRegion,
     ConditionSourceGameSystem,

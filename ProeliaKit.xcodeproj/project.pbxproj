@@ -107,6 +107,10 @@
 		5B072E691AAB78BE00F1DCEF /* PreparedRegion.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B072E051AAB787E00F1DCEF /* PreparedRegion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B072E6A1AAB78BE00F1DCEF /* PreparedRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B072E061AAB787E00F1DCEF /* PreparedRegion.m */; };
 		5B072E6B1AAB78BE00F1DCEF /* ProeliaKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B072E071AAB787E00F1DCEF /* ProeliaKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B072E6E1AAB83A600F1DCEF /* AbstractRegion.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B072E6C1AAB83A600F1DCEF /* AbstractRegion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B072E6F1AAB83A600F1DCEF /* AbstractRegion.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B072E6C1AAB83A600F1DCEF /* AbstractRegion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B072E701AAB83A600F1DCEF /* AbstractRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B072E6D1AAB83A600F1DCEF /* AbstractRegion.m */; };
+		5B072E711AAB83A600F1DCEF /* AbstractRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B072E6D1AAB83A600F1DCEF /* AbstractRegion.m */; };
 		5B161E891AA80DDC009A6087 /* ProeliaKitMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B161E7E1AA80DDC009A6087 /* ProeliaKitMobile.framework */; };
 		5BE4A8A91AA3AC74005F3D4A /* ProeliaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE4A89D1AA3AC74005F3D4A /* ProeliaKit.framework */; };
 /* End PBXBuildFile section */
@@ -182,6 +186,8 @@
 		5B072E051AAB787E00F1DCEF /* PreparedRegion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreparedRegion.h; sourceTree = "<group>"; };
 		5B072E061AAB787E00F1DCEF /* PreparedRegion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreparedRegion.m; sourceTree = "<group>"; };
 		5B072E071AAB787E00F1DCEF /* ProeliaKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProeliaKit.h; sourceTree = "<group>"; };
+		5B072E6C1AAB83A600F1DCEF /* AbstractRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractRegion.h; sourceTree = "<group>"; };
+		5B072E6D1AAB83A600F1DCEF /* AbstractRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractRegion.m; sourceTree = "<group>"; };
 		5B161E7E1AA80DDC009A6087 /* ProeliaKitMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProeliaKitMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B161E881AA80DDC009A6087 /* ProeliaKitMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProeliaKitMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B161EA21AA80E40009A6087 /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
@@ -282,6 +288,41 @@
 		5B072DD81AAB787D00F1DCEF /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				5B072E7B1AAB936200F1DCEF /* Model */,
+				5B072E791AAB933A00F1DCEF /* Constants */,
+				5B072E7A1AAB935400F1DCEF /* Protocols */,
+				5B072E071AAB787E00F1DCEF /* ProeliaKit.h */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		5B072E791AAB933A00F1DCEF /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				5B072DF11AAB787E00F1DCEF /* ConditionConstants.h */,
+				5B072DF21AAB787E00F1DCEF /* ConditionConstants.m */,
+				5B072DF41AAB787E00F1DCEF /* EncounterConstants.h */,
+				5B072DF51AAB787E00F1DCEF /* EncounterConstants.m */,
+				5B072DF71AAB787E00F1DCEF /* MapConstants.h */,
+				5B072DF81AAB787E00F1DCEF /* MapConstants.m */,
+				5B072DF91AAB787E00F1DCEF /* ParticipantConstants.h */,
+				5B072DFA1AAB787E00F1DCEF /* ParticipantConstants.m */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		5B072E7A1AAB935400F1DCEF /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				5B072DF31AAB787E00F1DCEF /* ConditionProvider.h */,
+				5B072DF61AAB787E00F1DCEF /* GameSystem.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		5B072E7B1AAB936200F1DCEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
 				5B072DD91AAB787D00F1DCEF /* AbstractMap.h */,
 				5B072DDA1AAB787D00F1DCEF /* AbstractMap.m */,
 				5B072DDB1AAB787D00F1DCEF /* AbstractMapLocation.h */,
@@ -290,6 +331,8 @@
 				5B072DDE1AAB787D00F1DCEF /* AbstractMapTile.m */,
 				5B072DDF1AAB787D00F1DCEF /* AbstractParticipant.h */,
 				5B072DE01AAB787D00F1DCEF /* AbstractParticipant.m */,
+				5B072E6C1AAB83A600F1DCEF /* AbstractRegion.h */,
+				5B072E6D1AAB83A600F1DCEF /* AbstractRegion.m */,
 				5B072DE11AAB787D00F1DCEF /* ActiveEncounter.h */,
 				5B072DE21AAB787D00F1DCEF /* ActiveEncounter.m */,
 				5B072DE31AAB787D00F1DCEF /* ActiveEncounterTimelineEntry.h */,
@@ -306,16 +349,6 @@
 				5B072DEE1AAB787E00F1DCEF /* ActiveRegion.m */,
 				5B072DEF1AAB787E00F1DCEF /* Condition.h */,
 				5B072DF01AAB787E00F1DCEF /* Condition.m */,
-				5B072DF11AAB787E00F1DCEF /* ConditionConstants.h */,
-				5B072DF21AAB787E00F1DCEF /* ConditionConstants.m */,
-				5B072DF31AAB787E00F1DCEF /* ConditionProvider.h */,
-				5B072DF41AAB787E00F1DCEF /* EncounterConstants.h */,
-				5B072DF51AAB787E00F1DCEF /* EncounterConstants.m */,
-				5B072DF61AAB787E00F1DCEF /* GameSystem.h */,
-				5B072DF71AAB787E00F1DCEF /* MapConstants.h */,
-				5B072DF81AAB787E00F1DCEF /* MapConstants.m */,
-				5B072DF91AAB787E00F1DCEF /* ParticipantConstants.h */,
-				5B072DFA1AAB787E00F1DCEF /* ParticipantConstants.m */,
 				5B072DFB1AAB787E00F1DCEF /* PreparedEncounter.h */,
 				5B072DFC1AAB787E00F1DCEF /* PreparedEncounter.m */,
 				5B072DFD1AAB787E00F1DCEF /* PreparedMap.h */,
@@ -328,9 +361,8 @@
 				5B072E041AAB787E00F1DCEF /* PreparedParticipant.m */,
 				5B072E051AAB787E00F1DCEF /* PreparedRegion.h */,
 				5B072E061AAB787E00F1DCEF /* PreparedRegion.m */,
-				5B072E071AAB787E00F1DCEF /* ProeliaKit.h */,
 			);
-			path = Shared;
+			name = Model;
 			sourceTree = "<group>";
 		};
 		5B161D1C1AA6C3EA009A6087 /* Configurations */ = {
@@ -374,6 +406,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B072E6F1AAB83A600F1DCEF /* AbstractRegion.h in Headers */,
 				5B072E411AAB78BE00F1DCEF /* AbstractMapTile.h in Headers */,
 				5B072E5B1AAB78BE00F1DCEF /* MapConstants.h in Headers */,
 				5B072E631AAB78BE00F1DCEF /* PreparedMapLocation.h in Headers */,
@@ -406,6 +439,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B072E6E1AAB83A600F1DCEF /* AbstractRegion.h in Headers */,
 				5B072E121AAB78BD00F1DCEF /* AbstractMapTile.h in Headers */,
 				5B072E2C1AAB78BD00F1DCEF /* MapConstants.h in Headers */,
 				5B072E341AAB78BD00F1DCEF /* PreparedMapLocation.h in Headers */,
@@ -611,6 +645,7 @@
 				5B072E5C1AAB78BE00F1DCEF /* MapConstants.m in Sources */,
 				5B072E661AAB78BE00F1DCEF /* PreparedMapTile.m in Sources */,
 				5B072E641AAB78BE00F1DCEF /* PreparedMapLocation.m in Sources */,
+				5B072E711AAB83A600F1DCEF /* AbstractRegion.m in Sources */,
 				5B072E5E1AAB78BE00F1DCEF /* ParticipantConstants.m in Sources */,
 				5B072E441AAB78BE00F1DCEF /* AbstractParticipant.m in Sources */,
 				5B072E481AAB78BE00F1DCEF /* ActiveEncounterTimelineEntry.m in Sources */,
@@ -648,6 +683,7 @@
 				5B072E2D1AAB78BD00F1DCEF /* MapConstants.m in Sources */,
 				5B072E371AAB78BD00F1DCEF /* PreparedMapTile.m in Sources */,
 				5B072E351AAB78BD00F1DCEF /* PreparedMapLocation.m in Sources */,
+				5B072E701AAB83A600F1DCEF /* AbstractRegion.m in Sources */,
 				5B072E2F1AAB78BD00F1DCEF /* ParticipantConstants.m in Sources */,
 				5B072E151AAB78BD00F1DCEF /* AbstractParticipant.m in Sources */,
 				5B072E191AAB78BD00F1DCEF /* ActiveEncounterTimelineEntry.m in Sources */,
@@ -691,7 +727,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ProeliaKitMobile/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/iOS/Main/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -711,7 +747,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ProeliaKitMobile/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/iOS/Main/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -735,7 +771,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ProeliaKitMobileTests/Info.plist;
+				INFOPLIST_FILE = iOS/Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -751,7 +787,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ProeliaKitMobileTests/Info.plist;
+				INFOPLIST_FILE = iOS/Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -850,7 +886,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = ProeliaKit/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Mac/Main/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -868,7 +904,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = ProeliaKit/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Mac/Main/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -888,7 +924,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ProeliaKitTests/Info.plist;
+				INFOPLIST_FILE = Mac/Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -902,7 +938,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ProeliaKitTests/Info.plist;
+				INFOPLIST_FILE = Mac/Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

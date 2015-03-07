@@ -7,7 +7,22 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AbstractParticipant.h"
+#import "GameSystem.h"
 
-@interface ActiveParticipant : NSObject
+
+@class ActiveEncounter;
+
+@interface ActiveParticipant : AbstractParticipant
+
+// -- Attributes --
+
+@property (nonatomic, assign) NSInteger actualOrder;
+@property (nonatomic, assign) ActiveEncounterStatus status;
+
+// -- Relationships --
+
+@property (nonatomic, weak) ActiveEncounter *encounter;
+@property (nonatomic, copy) NSArray *targets; // [ActiveParticipant]
 
 @end

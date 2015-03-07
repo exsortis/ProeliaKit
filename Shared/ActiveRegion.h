@@ -7,7 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AbstractRegion.h"
 
-@interface ActiveRegion : NSObject
+
+@class ActiveEncounter;
+
+@interface ActiveRegion : AbstractRegion
+
+// -- Attributes --
+
+// -- Relationships --
+
+@property (nonatomic, weak) ActiveEncounter* encounter;
 
 @end

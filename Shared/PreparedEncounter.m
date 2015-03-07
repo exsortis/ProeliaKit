@@ -8,6 +8,7 @@
 
 #import "PreparedEncounter.h"
 
+
 @implementation PreparedEncounter
 
 @end

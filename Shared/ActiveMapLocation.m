@@ -8,6 +8,7 @@
 
 #import "ActiveMapLocation.h"
 
+
 @implementation ActiveMapLocation
 
 @end

@@ -7,7 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AbstractMapTile.h"
 
-@interface ActiveMapTile : NSObject
+
+@class ActiveMap;
+
+@interface ActiveMapTile : AbstractMapTile
+
+// -- Attributes --
+
+// -- Relationships --
+
+@property (nonatomic, weak) ActiveMap* map;
 
 @end

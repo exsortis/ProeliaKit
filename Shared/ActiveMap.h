@@ -7,7 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AbstractMap.h"
 
-@interface ActiveMap : NSObject
+
+@class ActiveEncounter;
+
+@interface ActiveMap : AbstractMap
+
+// -- Attributes --
+
+// -- Relationships --
+
+@property (nonatomic, weak) ActiveEncounter* encounter;
+@property (nonatomic, copy) NSArray* tiles; // [ActiveMapTile]
 
 @end

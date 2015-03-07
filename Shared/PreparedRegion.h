@@ -7,7 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AbstractRegion.h"
 
-@interface PreparedRegion : NSObject
+
+@class PreparedEncounter;
+
+@interface PreparedRegion : AbstractRegion
+
+// -- Attributes --
+
+// -- Relationships --
+
+@property (nonatomic, weak) PreparedEncounter* encounter;
 
 @end

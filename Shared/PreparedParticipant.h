@@ -7,7 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AbstractParticipant.h"
 
-@interface PreparedParticipant : NSObject
+
+@class PreparedEncounter;
+
+@interface PreparedParticipant : AbstractParticipant
+
+// -- Attributes --
+
+// -- Relationships --
+
+@property (nonatomic, weak) PreparedEncounter* encounter;
 
 @end

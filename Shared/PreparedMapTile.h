@@ -7,7 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AbstractMapTile.h"
 
-@interface PreparedMapTile : NSObject
+
+@class PreparedMap;
+
+@interface PreparedMapTile : AbstractMapTile
+
+// -- Attributes --
+
+// -- Relationships --
+
+@property (nonatomic, weak) PreparedMap* map;
 
 @end
