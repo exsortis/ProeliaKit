@@ -1,3 +1,5 @@
 language: objective-c
 xcode_project: ProeliaKit.xcodeproj
-xcode_scheme: ProeliaKit
+xcode_scheme: 
+  - ProeliaKit
+  - ProeliaKitMobile
