@@ -17,9 +17,33 @@ FOUNDATION_EXPORT const unsigned char ProeliaKitVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <ProeliaKit/PublicHeader.h>
 
 
-#import <ProeliaKit/ConditionConstants.h>
+// -- Constants --
+
 #import <ProeliaKit/EncounterConstants.h>
-#import <ProeliaKit/MapConstants.h>
-#import <ProeliaKit/ParticipantConstants.h>
+
+// -- Protocols --
+
 #import <ProeliaKit/ConditionProvider.h>
 #import <ProeliaKit/GameSystem.h>
+
+// -- Model classes --
+
+#import <ProeliaKit/AbstractMap.h>
+#import <ProeliaKit/AbstractMapLocation.h>
+#import <ProeliaKit/AbstractMapTile.h>
+#import <ProeliaKit/AbstractParticipant.h>
+#import <ProeliaKit/AbstractRegion.h>
+#import <ProeliaKit/Encounter.h>
+#import <ProeliaKit/EncounterTimelineEntry.h>
+#import <ProeliaKit/EncounterMap.h>
+#import <ProeliaKit/EncounterMapLocation.h>
+#import <ProeliaKit/EncounterMapTile.h>
+#import <ProeliaKit/EncounterParticipant.h>
+#import <ProeliaKit/EncounterRegion.h>
+#import <ProeliaKit/Condition.h>
+#import <ProeliaKit/EncounterTemplate.h>
+#import <ProeliaKit/EncounterMapTemplate.h>
+#import <ProeliaKit/EncounterMapLocationTemplate.h>
+#import <ProeliaKit/EncounterMapTileTemplate.h>
+#import <ProeliaKit/EncounterParticipantTemplate.h>
+#import <ProeliaKit/EncounterRegionTemplate.h>

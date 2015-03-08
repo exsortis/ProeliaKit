@@ -6,16 +6,31 @@
 //  Copyright (c) 2015 Pilgrimage Software. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 
 
+/**
+ * This class serves as the base class for map tiles in both encounters and encounter templates.
+ */
 @interface AbstractMapTile : NSObject
 
 // -- Attributes --
 
+/**
+ *
+ */
 @property (nonatomic, copy) NSData* data;
+/**
+ *
+ */
 @property (nonatomic, assign) float scale;
+/**
+ *
+ */
 @property (nonatomic, assign) NSInteger x;
+/**
+ *
+ */
 @property (nonatomic, assign) NSInteger y;
 
 @end
