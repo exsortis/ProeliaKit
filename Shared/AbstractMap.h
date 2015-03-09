@@ -15,16 +15,16 @@
  */
 typedef NS_ENUM(NSInteger, LineStyle) {
     /**
-     * Grid line should be a solid, continguous line.
-     */
+* Grid line should be a solid, continguous line.
+*/
     LineStyleSolid,
     /**
-     * Grid lines should be dashed (a long, solid segment, followed by a short gap).
-     */
+* Grid lines should be dashed (a long, solid segment, followed by a short gap).
+*/
     LineStyleDashed,
     /**
-     * Grid lines should be dotted (equally short solid and gapped segments).
-     */
+* Grid lines should be dotted (equally short solid and gapped segments).
+*/
     LineStyleDotted,
 };
 

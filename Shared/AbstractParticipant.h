@@ -14,17 +14,17 @@
  */
 typedef NS_ENUM(NSInteger, ParticipantType) {
     /**
-     * The participant is a player character, generally controlled by a player.
-     */
+* The participant is a player character, generally controlled by a player.
+*/
     ParticipantTypePC,
     /**
-     * The participant is an adversary, generally controlled by the game master.
-     */
+* The participant is an adversary, generally controlled by the game master.
+*/
     ParticipantTypeAdversary,
     /**
-     * The participant is an object, such as a trap, prop, or other (usually) neutral thing that is a
-     * significant part of the encounter.
-     */
+* The participant is an object, such as a trap, prop, or other (usually) neutral thing that is a
+* significant part of the encounter.
+*/
     ParticipantTypeObject,
 };
 

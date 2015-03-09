@@ -628,7 +628,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = "/bin/sh -x";
-			shellScript = "\"${SRCROOT}/Tools/appledoc/appledoc\" -o \"${BUILT_PRODUCTS_DIR}/Docs\" -t \"${SRCROOT}/Tools/appledoc/Templates\" -s \"${SRCROOT}/Documentation/doc-header.md\" -d -p ProeliaKit -v 1.0 -c \"Pilgrimage Software\" --company-id \"com.pilgrimagesoftware\" --verbose 5 --logformat xcode --keep-intermediate-files \"${SRCROOT}/Shared\" \"${SRCROOT}/iOS/Main\" \"${SRCROOT}/Mac/Main\"";
+			shellScript = "\"${SRCROOT}/Tools/appledoc/appledoc\" -o \"${BUILT_PRODUCTS_DIR}/Docs\" -t \"${SRCROOT}/Tools/appledoc/Templates\" -s \"${SRCROOT}/Documentation/doc-header.md\" --no-create-html --create-docset --no-install-docset -p ProeliaKit -v 1.0 -c \"Pilgrimage Software\" --company-id \"com.pilgrimagesoftware\" --verbose 2 --logformat xcode --keep-intermediate-files \"${SRCROOT}/Shared\" \"${SRCROOT}/iOS/Main\" \"${SRCROOT}/Mac/Main\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 

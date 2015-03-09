@@ -17,13 +17,13 @@
  */
 typedef NS_ENUM(NSInteger, ConditionType) {
     /**
-     */
+*/
     ConditionTypeNormal,
     /**
-     */
+*/
     ConditionTypeOngoing,
     /**
-     */
+*/
     ConditionTypeCustom,
 };
 
@@ -31,22 +31,22 @@ typedef NS_ENUM(NSInteger, ConditionType) {
  */
 typedef NS_ENUM(NSInteger, ConditionEnd) {
     /**
-     */
+*/
     ConditionEndSave,
     /**
-     */
+*/
     ConditionEndStartOfTurn,
     /**
-     */
+*/
     ConditionEndEndOfTurn,
     /**
-     */
+*/
     ConditionEndEndOfEncounter,
     /**
-     */
+*/
     ConditionEndRegion,
     /**
-     */
+*/
     ConditionEndFixed,
 };
 
@@ -54,13 +54,13 @@ typedef NS_ENUM(NSInteger, ConditionEnd) {
  */
 typedef NS_ENUM(NSInteger, ConditionSource) {
     /**
-     */
+*/
     ConditionSourceSelf,
     /**
-     */
+*/
     ConditionSourceRegion,
     /**
-     */
+*/
     ConditionSourceGameSystem,
 };
 
