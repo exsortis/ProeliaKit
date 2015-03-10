@@ -106,13 +106,13 @@
  * @param name The name of the condition
  * @return The adjustment value of the condition
  */
-- (CGFloat)conditionAdjustmentForName:(NSString*)name;
+- (float)conditionAdjustmentForName:(NSString*)name;
 /**
  * Get the adjustment value of the condition at the specified index.
  * @param index The index of the condition
  * @return The adjustment value of the condition
  */
-- (CGFloat)conditionAdjustmentForIndex:(NSInteger)index;
+- (float)conditionAdjustmentForIndex:(NSInteger)index;
 /**
  * Get the description of the condition for the specified name.
  * @param name The name of the condition
