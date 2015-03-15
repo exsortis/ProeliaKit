@@ -10,31 +10,31 @@
 	<string>ProeliaKit</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>4AA8A517DE7732BC9B8EDAEC984F486EED672159</key>
-		<string>https://pilgrimage.kilnhg.com/Code/RPG/Apps/EncounterTracker.git</string>
+		<key>669D46EC3254749B6C701EAE4BB010F81FFE8756</key>
+		<string>https://github.com/pilgrimagesoftware/ProeliaKit.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Shared/ProeliaKit/ProeliaKit.xcodeproj</string>
+	<string>ProeliaKit.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>4AA8A517DE7732BC9B8EDAEC984F486EED672159</key>
-		<string>../../../..</string>
+		<key>669D46EC3254749B6C701EAE4BB010F81FFE8756</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://pilgrimage.kilnhg.com/Code/RPG/Apps/EncounterTracker.git</string>
+	<string>https://github.com/pilgrimagesoftware/ProeliaKit.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>4AA8A517DE7732BC9B8EDAEC984F486EED672159</string>
+	<string>669D46EC3254749B6C701EAE4BB010F81FFE8756</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>4AA8A517DE7732BC9B8EDAEC984F486EED672159</string>
+			<string>669D46EC3254749B6C701EAE4BB010F81FFE8756</string>
 			<key>IDESourceControlWCCName</key>
-			<string>EncounterTracker</string>
+			<string>ProeliaKit</string>
 		</dict>
 	</array>
 </dict>
