@@ -1,5 +1,4 @@
 language: objective-c
-xcode_project: ProeliaKit.xcodeproj
-xcode_scheme: 
-  - ProeliaKit
-  - ProeliaKitMobile
+script:
+ - xctool -scheme ProeliaKit clean build test
+ - xctool -scheme ProeliaKitMobile -sdk iphonesimulator clean build
