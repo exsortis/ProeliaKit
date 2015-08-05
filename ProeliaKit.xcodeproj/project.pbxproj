@@ -381,8 +381,8 @@
 				5B6321BF1AACDA8B0067EA7E /* Documentation */,
 				5B072DCC1AAB787D00F1DCEF /* iOS */,
 				5B072DD21AAB787D00F1DCEF /* Mac */,
-				5BE4A89E1AA3AC74005F3D4A /* Products */,
 				5B072DD81AAB787D00F1DCEF /* Shared */,
+				5BE4A89E1AA3AC74005F3D4A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
