@@ -21,9 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		5B072E081AAB789000F1DCEF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B072DD01AAB787D00F1DCEF /* Info.plist */; };
 		5B072E091AAB789000F1DCEF /* ProeliaKitMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B072DD11AAB787D00F1DCEF /* ProeliaKitMobileTests.m */; };
-		5B072E0B1AAB78A600F1DCEF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B072DD61AAB787D00F1DCEF /* Info.plist */; };
 		5B072E0C1AAB78A600F1DCEF /* ProeliaKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B072DD71AAB787D00F1DCEF /* ProeliaKitTests.m */; };
 		5B072E0E1AAB78BD00F1DCEF /* AbstractMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B072DD91AAB787D00F1DCEF /* AbstractMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B072E0F1AAB78BD00F1DCEF /* AbstractMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B072DDA1AAB787D00F1DCEF /* AbstractMap.m */; };
@@ -541,7 +539,7 @@
 		5BE4A8941AA3AC74005F3D4A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Pilgrimage Software";
 				TargetAttributes = {
 					5B072E7C1AABAFDD00F1DCEF = {
@@ -594,7 +592,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B072E081AAB789000F1DCEF /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -609,7 +606,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B072E0B1AAB78A600F1DCEF /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -750,6 +746,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pilgrimagesoftware.lib.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -770,6 +767,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pilgrimagesoftware.lib.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -793,6 +791,7 @@
 				INFOPLIST_FILE = iOS/Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pilgrimagesoftware.lib.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 			};
@@ -809,6 +808,7 @@
 				INFOPLIST_FILE = iOS/Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pilgrimagesoftware.lib.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -835,6 +835,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -908,6 +909,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Mac/Main/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pilgrimagesoftware.rpg.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -926,6 +928,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Mac/Main/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pilgrimagesoftware.rpg.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -945,6 +948,7 @@
 				);
 				INFOPLIST_FILE = Mac/Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pilgrimagesoftware.rpg.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -959,6 +963,7 @@
 				);
 				INFOPLIST_FILE = Mac/Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pilgrimagesoftware.rpg.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
