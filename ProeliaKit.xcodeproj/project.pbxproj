@@ -63,7 +63,6 @@
 		5B072E391AAB78BD00F1DCEF /* EncounterParticipantTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B072E041AAB787E00F1DCEF /* EncounterParticipantTemplate.m */; };
 		5B072E3A1AAB78BD00F1DCEF /* EncounterRegionTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B072E051AAB787E00F1DCEF /* EncounterRegionTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B072E3B1AAB78BD00F1DCEF /* EncounterRegionTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B072E061AAB787E00F1DCEF /* EncounterRegionTemplate.m */; };
-		5B072E3C1AAB78BD00F1DCEF /* ProeliaKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B072E071AAB787E00F1DCEF /* ProeliaKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B072E3D1AAB78BE00F1DCEF /* AbstractMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B072DD91AAB787D00F1DCEF /* AbstractMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B072E3E1AAB78BE00F1DCEF /* AbstractMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B072DDA1AAB787D00F1DCEF /* AbstractMap.m */; };
 		5B072E3F1AAB78BE00F1DCEF /* AbstractMapLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B072DDB1AAB787D00F1DCEF /* AbstractMapLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -104,7 +103,6 @@
 		5B072E681AAB78BE00F1DCEF /* EncounterParticipantTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B072E041AAB787E00F1DCEF /* EncounterParticipantTemplate.m */; };
 		5B072E691AAB78BE00F1DCEF /* EncounterRegionTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B072E051AAB787E00F1DCEF /* EncounterRegionTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B072E6A1AAB78BE00F1DCEF /* EncounterRegionTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B072E061AAB787E00F1DCEF /* EncounterRegionTemplate.m */; };
-		5B072E6B1AAB78BE00F1DCEF /* ProeliaKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B072E071AAB787E00F1DCEF /* ProeliaKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B072E6E1AAB83A600F1DCEF /* AbstractRegion.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B072E6C1AAB83A600F1DCEF /* AbstractRegion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B072E6F1AAB83A600F1DCEF /* AbstractRegion.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B072E6C1AAB83A600F1DCEF /* AbstractRegion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B072E701AAB83A600F1DCEF /* AbstractRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B072E6D1AAB83A600F1DCEF /* AbstractRegion.m */; };
@@ -177,7 +175,6 @@
 		5B072E041AAB787E00F1DCEF /* EncounterParticipantTemplate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncounterParticipantTemplate.m; sourceTree = "<group>"; };
 		5B072E051AAB787E00F1DCEF /* EncounterRegionTemplate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncounterRegionTemplate.h; sourceTree = "<group>"; };
 		5B072E061AAB787E00F1DCEF /* EncounterRegionTemplate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncounterRegionTemplate.m; sourceTree = "<group>"; };
-		5B072E071AAB787E00F1DCEF /* ProeliaKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProeliaKit.h; sourceTree = "<group>"; };
 		5B072E6C1AAB83A600F1DCEF /* AbstractRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractRegion.h; sourceTree = "<group>"; };
 		5B072E6D1AAB83A600F1DCEF /* AbstractRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractRegion.m; sourceTree = "<group>"; };
 		5B161E7E1AA80DDC009A6087 /* ProeliaKitMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProeliaKitMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -238,6 +235,8 @@
 		5B072DCD1AAB787D00F1DCEF /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				5BB9F9001BA4B039006FBDCA /* ProeliaKit.modulemap */,
+				5BB9F9031BA4B14D006FBDCA /* ProeliaKit-umbrella.h */,
 				5B072DCE1AAB787D00F1DCEF /* Info.plist */,
 			);
 			path = Main;
@@ -356,6 +355,8 @@
 			isa = PBXGroup;
 			children = (
 				5B161EA21AA80E40009A6087 /* Base.xcconfig */,
+				5BB9F9011BA4B089006FBDCA /* Base-iOS.xcconfig */,
+				5BB9F9021BA4B091006FBDCA /* Base-Mac.xcconfig */,
 				5B161EA31AA80E56009A6087 /* Debug-iOS.xcconfig */,
 				5B161EA41AA80E5E009A6087 /* Debug-Mac.xcconfig */,
 				5B161EA51AA80E68009A6087 /* Release-iOS.xcconfig */,
@@ -406,8 +407,8 @@
 				5B072E411AAB78BE00F1DCEF /* AbstractMapTile.h in Headers */,
 				5B072E631AAB78BE00F1DCEF /* EncounterMapLocationTemplate.h in Headers */,
 				5B072E5A1AAB78BE00F1DCEF /* GameSystem.h in Headers */,
-				5B072E6B1AAB78BE00F1DCEF /* ProeliaKit.h in Headers */,
 				5B072E3F1AAB78BE00F1DCEF /* AbstractMapLocation.h in Headers */,
+				5BB9F9041BA4B14D006FBDCA /* ProeliaKit-umbrella.h in Headers */,
 				5B072E691AAB78BE00F1DCEF /* EncounterRegionTemplate.h in Headers */,
 				5B072E4D1AAB78BE00F1DCEF /* EncounterMapTile.h in Headers */,
 				5B072E431AAB78BE00F1DCEF /* AbstractParticipant.h in Headers */,
@@ -436,7 +437,6 @@
 				5B072E121AAB78BD00F1DCEF /* AbstractMapTile.h in Headers */,
 				5B072E341AAB78BD00F1DCEF /* EncounterMapLocationTemplate.h in Headers */,
 				5B072E2B1AAB78BD00F1DCEF /* GameSystem.h in Headers */,
-				5B072E3C1AAB78BD00F1DCEF /* ProeliaKit.h in Headers */,
 				5B072E101AAB78BD00F1DCEF /* AbstractMapLocation.h in Headers */,
 				5B072E3A1AAB78BD00F1DCEF /* EncounterRegionTemplate.h in Headers */,
 				5B072E1E1AAB78BD00F1DCEF /* EncounterMapTile.h in Headers */,

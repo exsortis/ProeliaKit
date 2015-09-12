@@ -1,0 +1,11 @@
+//
+//  Base-iOS.xcconfig
+//  ProeliaKit
+//
+//  Created by Paul Schifferer on 9/12/15.
+//  Copyright © 2015 Pilgrimage Software. All rights reserved.
+//
+
+#include "Base.xcconfig"
+
+MODULEMAP_FILE = iOS/Main/ProeliaKit.modulemap

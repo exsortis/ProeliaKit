@@ -1,0 +1,7 @@
+framework module ProeliaKitMobile {
+    umbrella header "ProeliaKit-umbrella.h"
+
+    export *
+    module * { export * }
+
+}
