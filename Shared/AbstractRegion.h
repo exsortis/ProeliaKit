@@ -7,12 +7,15 @@
 //
 
 @import Foundation;
+#import "BaseIdObject.h"
 
+
+@class Condition;
 
 /**
  * This class serves as the base class for regions in both encounters and encounter templates.
  */
-@interface AbstractRegion : NSObject
+@interface AbstractRegion : BaseIdObject
 
 // -- Attributes --
 
@@ -25,10 +28,6 @@
  * The height of the region, expressed in map squares, along a Cartesian Y axis.
  */
 @property (nonatomic, assign) NSUInteger height;
-/**
- * The name of the region.
- */
-@property (nonatomic, copy) NSString *name;
 /**
  * A string containing notes about the region.
  */
@@ -54,6 +53,6 @@
  * A collection of conditions that are associated with the region. These are generally used by the game
  * system to be applied to participants that are within the region.
  */
-@property (nonatomic, copy) NSArray* conditions; // [Condition]
+@property (nonatomic, copy) NSArray<Condition*>* conditions;
 
 @end

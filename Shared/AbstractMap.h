@@ -7,7 +7,10 @@
 //
 
 @import Foundation;
+#import "BaseIdObject.h"
 
+
+@class AbstractMapLocation;
 
 /**
  * The value representing the style of the maps grid lines. This value is only used if the map's flags
@@ -31,7 +34,7 @@ typedef NS_ENUM(NSInteger, LineStyle) {
 /**
  * This class serves as the base class for maps in both encounters and encounter templates.
  */
-@interface AbstractMap : NSObject
+@interface AbstractMap : BaseIdObject
 
 // -- Attributes --
 
@@ -74,10 +77,6 @@ typedef NS_ENUM(NSInteger, LineStyle) {
  */
 @property (nonatomic, assign) NSInteger gridWidth;
 /**
- * The name of the map.
- */
-@property (nonatomic, copy) NSString* name;
-/**
  * Notes for the map.
  */
 @property (nonatomic, copy) NSString* notes;
@@ -90,6 +89,6 @@ typedef NS_ENUM(NSInteger, LineStyle) {
 /**
  * A collection of location objects that are part of the map.
  */
-@property (nonatomic, copy) NSArray* locations; // [AbstractMapLocation]
+@property (nonatomic, copy) NSArray<__kindof AbstractMapLocation*>* locations;
 
 @end

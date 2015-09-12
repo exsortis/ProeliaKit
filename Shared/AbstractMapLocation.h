@@ -10,9 +10,10 @@
 
 
 @class AbstractMap;
+@class Condition;
 
 /**
- * This class serves as the base class for map location in both encounters and encounter templates.
+ * This class serves as the base class for map location in both map locations and map location templates.
  */
 @interface AbstractMapLocation : NSObject
 
@@ -44,10 +45,6 @@
 /**
  *
  */
-@property (nonatomic, copy) NSArray* conditions; // [Condition]
-/**
- *
- */
-@property (nonatomic, weak) AbstractMap* map;
+@property (nonatomic, copy) NSArray<Condition*>* conditions;
 
 @end

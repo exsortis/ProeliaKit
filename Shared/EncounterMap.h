@@ -11,6 +11,7 @@
 
 
 @class Encounter;
+@class EncounterMapTile;
 
 /**
  * An instance of this class represents a map associated with an encounter.
@@ -22,12 +23,8 @@
 // -- Relationships --
 
 /**
- * The encounter to which this map belongs.
- */
-@property (nonatomic, weak) Encounter* encounter;
-/**
  * A collection of tiles that are part of this map.
  */
-@property (nonatomic, copy) NSArray* tiles; // [EncounterMapTile]
+@property (nonatomic, copy) NSArray<EncounterMapTile*>* tiles;
 
 @end

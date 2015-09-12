@@ -11,4 +11,15 @@
 
 @implementation AbstractMap
 
+- (instancetype)init {
+    self = [super init];
+    if(self) {
+        self.notes = @"";
+        self.locations = @[];
+        self.scale = 1;
+    }
+
+    return self;
+}
+
 @end

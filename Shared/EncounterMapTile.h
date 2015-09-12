@@ -21,9 +21,4 @@
 
 // -- Relationships --
 
-/**
- *
- */
-@property (nonatomic, weak) EncounterMap* map;
-
 @end

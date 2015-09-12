@@ -21,9 +21,4 @@
 
 // -- Relationships --
 
-/**
- * The map to which this tile belongs.
- */
-@property (nonatomic, weak) EncounterMapTemplate* mapTemplate;
-
 @end

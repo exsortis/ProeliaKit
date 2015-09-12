@@ -21,9 +21,4 @@
 
 // -- Relationships --
 
-/**
- * The encounter to which this participant belongs.
- */
-@property (nonatomic, weak) EncounterTemplate* encounterTemplate;
-
 @end

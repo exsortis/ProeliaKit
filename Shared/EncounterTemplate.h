@@ -7,57 +7,21 @@
 //
 
 @import Foundation;
+#import "AbstractEncounter.h"
 
 
 /**
  * An instance of this class represents an encounter template that can be activated and run.
  */
-@interface EncounterTemplate : NSObject
+@interface EncounterTemplate : AbstractEncounter
 
 // -- Attributes --
 
 /**
  *
  */
-@property (nonatomic, copy) NSString *category;
-/**
- *
- */
-@property (nonatomic, assign) NSTimeInterval created;
-/**
- *
- */
 @property (nonatomic, assign) BOOL favorite;
-/**
- *
- */
-@property (nonatomic, copy) NSString *gameSystemName;
-/**
- *
- */
-@property (nonatomic, assign) NSTimeInterval modified;
-/**
- *
- */
-@property (nonatomic, copy) NSString *name;
-/**
- *
- */
-@property (nonatomic, copy) NSString *notes;
 
 // -- Relationships --
-
-/**
- *
- */
-@property (nonatomic, copy) NSArray *maps; // [EncounterMapTemplate]
-/**
- *
- */
-@property (nonatomic, copy) NSArray *participants; // [EncounterParticipantTemplate]
-/**
- *
- */
-@property (nonatomic, copy) NSArray *regions; // [EncounterRegionTemplate]
 
 @end

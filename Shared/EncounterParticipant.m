@@ -11,4 +11,13 @@
 
 @implementation EncounterParticipant
 
+- (instancetype)init {
+    self = [super init];
+    if(self) {
+        self.targets = @[];
+    }
+
+    return self;
+}
+
 @end

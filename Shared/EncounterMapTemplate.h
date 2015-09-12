@@ -1,6 +1,6 @@
 //
 //  EncounterMapTemplate.h
-//  ProeliaKit
+//
 //
 //  Created by Paul Schifferer on 3/5/15.
 //  Copyright (c) 2015 Pilgrimage Software. All rights reserved.
@@ -11,6 +11,7 @@
 
 
 @class EncounterTemplate;
+@class EncounterMapTileTemplate;
 
 /**
  * An instance of this class represents a map for an encounter template.
@@ -22,13 +23,9 @@
 // -- Relationships --
 
 /**
- * The encounter to which this map belongs.
- */
-@property (nonatomic, weak) EncounterTemplate* encounterTemplate;
-/**
  * A collection of tiles that are part of the map.
  * @see EncounterMapTileTemplate
  */
-@property (nonatomic, copy) NSArray* tiles; // [EncounterMapTileTemplate]
+@property (nonatomic, copy) NSArray<EncounterMapTileTemplate*>* tiles;
 
 @end

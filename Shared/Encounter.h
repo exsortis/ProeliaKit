@@ -9,23 +9,21 @@
 @import Foundation;
 #import "EncounterConstants.h"
 #import "GameSystem.h"
+#import "AbstractEncounter.h"
 
+
+@class EncounterMap;
+@class EncounterParticipant;
+@class EncounterRegion;
+@class EncounterTimelineEntry;
 
 /**
  * An instance of this class represents an encounter created from a template that is being run.
  */
-@interface Encounter : NSObject
+@interface Encounter : AbstractEncounter
 
 // -- Attributes --
 
-/**
- *
- */
-@property (nonatomic, copy) NSString *category;
-/**
- *
- */
-@property (nonatomic, assign) NSTimeInterval created;
 /**
  *
  */
@@ -34,22 +32,6 @@
  *
  */
 @property (nonatomic, assign) NSTimeInterval endDate;
-/**
- *
- */
-@property (nonatomic, copy) NSString *gameSystemName;
-/**
- *
- */
-@property (nonatomic, assign) NSTimeInterval modified;
-/**
- *
- */
-@property (nonatomic, copy) NSString *name;
-/**
- *
- */
-@property (nonatomic, copy) NSString *notes;
 /**
  *
  */
@@ -76,22 +58,5 @@
 @property (nonatomic, copy) NSData *turnQueue;
 
 // -- Relationships --
-
-/**
- *
- */
-@property (nonatomic, copy) NSArray *maps; // [EncounterMap]
-/**
- *
- */
-@property (nonatomic, copy) NSArray *participants; // [EncounterParticipant]
-/**
- *
- */
-@property (nonatomic, copy) NSArray *regions; // [EncounterRegion]
-/**
- *
- */
-@property (nonatomic, copy) NSArray *timeline; // [EncounterTimelineEntry]
 
 @end

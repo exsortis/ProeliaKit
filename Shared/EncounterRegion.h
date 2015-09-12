@@ -21,9 +21,4 @@
 
 // -- Relationships --
 
-/**
- *
- */
-@property (nonatomic, weak) Encounter* encounter;
-
 @end

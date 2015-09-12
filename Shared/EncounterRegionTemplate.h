@@ -22,9 +22,4 @@
 
 // -- Relationships --
 
-/**
- * The encounter template to which this region template belongs.
- */
-@property (nonatomic, weak) EncounterTemplate* encounterTemplate;
-
 @end

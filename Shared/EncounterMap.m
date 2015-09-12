@@ -11,4 +11,14 @@
 
 @implementation EncounterMap
 
+- (instancetype)init {
+    self = [super init];
+    if(self) {
+        self.notes = @"";
+        self.tiles = @[];
+    }
+
+    return self;
+}
+
 @end

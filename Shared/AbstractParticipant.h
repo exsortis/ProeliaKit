@@ -7,7 +7,10 @@
 //
 
 @import Foundation;
+#import "BaseIdObject.h"
 
+
+@class Condition;
 
 /**
  * Type values for a participant.
@@ -31,7 +34,7 @@ typedef NS_ENUM(NSInteger, ParticipantType) {
 /**
  * This class serves as the base class for participants in both encounters and encounter templates.
  */
-@interface AbstractParticipant : NSObject
+@interface AbstractParticipant : BaseIdObject
 
 // -- Attributes --
 
@@ -51,12 +54,6 @@ typedef NS_ENUM(NSInteger, ParticipantType) {
  */
 @property (nonatomic, copy) NSString *externalKey;
 /**
- * This value is an internal identifier for the participant. This value is usually set when the participant
- * is added to the encounter from a "standby group", so that if the participant data needs to be synchronized
- * back to the group, this value is the link.
- */
-@property (nonatomic, copy) NSString *guid;
-/**
  * A serialized representation of the token image for this particpant. This data is used when drawing the
  * token for this participant on the map.
  */
@@ -65,10 +62,6 @@ typedef NS_ENUM(NSInteger, ParticipantType) {
  * A string value that is used for the participant's token if there is no image data.
  */
 @property (nonatomic, copy) NSString *marker;
-/**
- * The participant name.
- */
-@property (nonatomic, copy) NSString *name;
 /**
  * A string containing notes about the participant.
  */
@@ -120,6 +113,6 @@ typedef NS_ENUM(NSInteger, ParticipantType) {
 /**
  *
  */
-@property (nonatomic, copy) NSArray* conditions; // [Condition]
+@property (nonatomic, copy) NSArray<Condition*>* conditions;
 
 @end

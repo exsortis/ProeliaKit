@@ -12,6 +12,7 @@
 
 
 @class Encounter;
+@class EncounterParticipant;
 
 /**
  * This class serves as the base class for maps in both active and prepared encounters.
@@ -34,10 +35,6 @@
 /**
  *
  */
-@property (nonatomic, weak) Encounter *encounter;
-/**
- *
- */
-@property (nonatomic, copy) NSArray *targets; // [EncounterParticipant]
+@property (nonatomic, copy) NSArray<EncounterParticipant*>* targets;
 
 @end

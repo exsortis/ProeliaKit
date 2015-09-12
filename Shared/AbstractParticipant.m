@@ -11,4 +11,14 @@
 
 @implementation AbstractParticipant
 
+- (instancetype)init {
+    self = [super init];
+    if(self) {
+        self.notes = @"";
+        self.conditions = @[];
+    }
+
+    return self;
+}
+
 @end

@@ -7,6 +7,7 @@
 //
 
 @import Foundation;
+#import "BaseIdObject.h"
 
 
 /**
@@ -69,7 +70,7 @@ typedef NS_ENUM(NSInteger, ConditionSource) {
  * An instance of this class represents an effect that is or can be applied to another object
  * in an encounter.
  */
-@interface Condition : NSObject
+@interface Condition : BaseIdObject
 
 // -- Attributes --
 
