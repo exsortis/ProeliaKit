@@ -59,4 +59,8 @@
 
 // -- Relationships --
 
+/**
+ */
+@property (nonatomic, copy) NSString* templateId;
+
 @end
