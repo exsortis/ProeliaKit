@@ -12,6 +12,7 @@
 
 @class Campaign;
 @class Encounter;
+@class EncounterTemplate;
 
 @interface EncounterGroup : BaseIdObject
 
@@ -19,5 +20,9 @@
  *
  */
 @property (nonatomic, copy) NSArray<Encounter*>* encounters;
+/**
+ *
+ */
+@property (nonatomic, copy) NSArray<EncounterTemplate*>* templates;
 
 @end
