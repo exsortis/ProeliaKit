@@ -29,6 +29,10 @@
  */
 @property (nonatomic, assign) NSUInteger height;
 /**
+ * The depth of the region, expressed in map squares, along a Cartesian Z axis.
+ */
+@property (nonatomic, assign) NSUInteger depth;
+/**
  * A string containing notes about the region.
  */
 @property (nonatomic, copy) NSString *notes;
@@ -46,6 +50,11 @@
  * placement), along a Cartesian Y axis.
  */
 @property (nonatomic, assign) double y;
+/**
+ * The location of the upper-left corner of the region, expressed in map squares (but allowing for fractional
+ * placement), along a Cartesian Z axis.
+ */
+@property (nonatomic, assign) double z;
 
 // -- Relationships --
 
