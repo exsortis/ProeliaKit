@@ -13,12 +13,14 @@
 @class Encounter;
 @class EncounterMapTile;
 @class EncounterMapLocation;
-@class Condition;
+@class Effect;
 
 /**
  * An instance of this class represents a map associated with an encounter.
  */
 @interface EncounterMap : AbstractMap
+
+// -- Initializers --
 
 // -- Attributes --
 
@@ -28,14 +30,15 @@
  * A collection of tiles that are part of this map.
  */
 @property (nonatomic, nonnull, copy) NSArray<EncounterMapTile*>* tiles;
+
 /**
  * A collection of location objects that are part of the map.
  */
 @property (nonatomic, nonnull, copy) NSArray<EncounterMapLocation*>* locations;
+
 /**
  *
  */
-@property (nonatomic, nonnull, copy) NSArray<Condition*>* conditions;
-
+@property (nonatomic, nonnull, copy) NSArray<Effect*>* conditions;
 
 @end

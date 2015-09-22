@@ -17,6 +17,8 @@
  */
 @interface EncounterMapTile : AbstractMapTile
 
+// -- Initializers --
+
 // -- Attributes --
 
 // -- Relationships --

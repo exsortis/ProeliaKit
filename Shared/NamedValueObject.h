@@ -10,18 +10,20 @@
 #import "IdValueObject.h"
 
 
+/**
+ * An abstract class for value objects that provides a property for storing a name.
+ */
 @interface NamedValueObject : IdValueObject
 
+/**
+ * Designated initializer for initializing this object. A name must be provided.
+ */
 - (nonnull instancetype)initWithName:(nonnull NSString*)name
 NS_DESIGNATED_INITIALIZER;
 
 /**
- *
+ * Stores the name of the object.
  */
 @property (nonatomic, nonnull, copy) NSString *name;
-/**
- *
- */
-@property (nonatomic, nonnull, copy) NSString *notes;
 
 @end

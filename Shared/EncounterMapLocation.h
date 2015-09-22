@@ -10,12 +10,14 @@
 #import "AbstractMapLocation.h"
 
 
-@class Condition;
+@class Effect;
 
 /**
  * An instance of this class represents a ...
  */
 @interface EncounterMapLocation : AbstractMapLocation
+
+// -- Initializers --
 
 // -- Attributes --
 
@@ -24,6 +26,6 @@
 /**
  *
  */
-@property (nonatomic, nonnull, copy) NSArray<Condition*>* conditions;
+@property (nonatomic, nonnull, copy) NSArray<Effect*>* conditions;
 
 @end

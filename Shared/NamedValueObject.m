@@ -15,7 +15,6 @@
     self = [super init];
     if(self) {
         self.name = name;
-        self.notes = @"";
     }
 
     return self;

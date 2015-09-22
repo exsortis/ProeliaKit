@@ -13,12 +13,14 @@
 @class EncounterTemplate;
 @class EncounterMapTileTemplate;
 @class EncounterMapLocationTemplate;
-@class ConditionTemplate;
+@class EffectTemplate;
 
 /**
  * An instance of this class represents a map for an encounter template.
  */
 @interface EncounterMapTemplate : AbstractMap
+
+// -- Initializers --
 
 // -- Attributes --
 
@@ -29,6 +31,7 @@
  * @see EncounterMapTileTemplate
  */
 @property (nonatomic, nonnull, copy) NSArray<EncounterMapTileTemplate*>* tiles;
+
 /**
  * A collection of location objects that are part of the map.
  */

@@ -17,7 +17,7 @@ FOUNDATION_EXPORT const unsigned char ProeliaKitVersionString[];
 
 // -- Constants --
 
-#import "ConditionConstants.h"
+#import "EffectConstants.h"
 #import "EncounterConstants.h"
 #import "MapConstants.h"
 #import "ParticipantConstants.h"
@@ -29,8 +29,8 @@ FOUNDATION_EXPORT const unsigned char ProeliaKitVersionString[];
 // -- Value objects --
 
 #import "Campaign.h"
-#import "Condition.h"
-#import "ConditionTemplate.h"
+#import "Effect.h"
+#import "EffectTemplate.h"
 #import "Encounter.h"
 #import "EncounterGroup.h"
 #import "EncounterMap.h"

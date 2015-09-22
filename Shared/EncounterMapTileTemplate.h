@@ -14,8 +14,12 @@
 
 /**
  * An instance of this classes represents a tile that is positioned on the encounter's map.
+ * Tiles are placed above the map's background, and can be used to represent movable objects
+ * or compositions.
  */
 @interface EncounterMapTileTemplate : AbstractMapTile
+
+// -- Initializers --
 
 // -- Attributes --
 

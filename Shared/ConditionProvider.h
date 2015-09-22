@@ -7,7 +7,7 @@
 //
 
 @import Foundation;
-#import "Condition.h"
+#import "Effect.h"
 
 
 @class EncounterParticipant;
@@ -94,13 +94,13 @@
  * @param name The name of the condition
  * @return The type of the condition
  */
-- (ConditionType)conditionTypeForName:(NSString*)name;
+- (EffectType)conditionTypeForName:(NSString*)name;
 /**
  * Get the type of the condition at the specified index.
  * @param index The index of the condition
  * @return The type of the condition
  */
-- (ConditionType)conditionTypeForIndex:(NSInteger)index;
+- (EffectType)conditionTypeForIndex:(NSInteger)index;
 /**
  * Get the adjustment value of the condition for the specified name.
  * @param name The name of the condition
@@ -130,12 +130,12 @@
  * @param name The name of the condition
  * @return The end type of the condition
  */
-- (ConditionEnd)conditionEndForName:(NSString*)name;
+- (EffectEnd)conditionEndForName:(NSString*)name;
 /**
  * Get the end type of the condition at the specified index.
  * @param index The index of the condition
  * @return The end type of the condition
  */
-- (ConditionEnd)conditionEndForIndex:(NSInteger)index;
+- (EffectEnd)conditionEndForIndex:(NSInteger)index;
 
 @end

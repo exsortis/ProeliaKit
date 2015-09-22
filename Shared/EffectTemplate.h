@@ -1,5 +1,5 @@
 //
-//  ConditionTemplate.h
+//  EffectTemplate.h
 //  ProeliaKit
 //
 //  Created by Paul Schifferer on 9/21/15.
@@ -7,20 +7,17 @@
 //
 
 @import Foundation;
-#import "NamedValueObject.h"
-#import "ConditionConstants.h"
+#import "BaseValueObject.h"
+#import "EffectConstants.h"
 
 
 /**
  * An instance of this class represents an effect that is or can be applied to something
  * in an encounter.
  */
-@interface ConditionTemplate : NamedValueObject
+@interface EffectTemplate : BaseValueObject
 
 // -- Initializers --
-
-- (nonnull instancetype)initWithName:(nonnull NSString*)name
-NS_DESIGNATED_INITIALIZER;
 
 // -- Attributes --
 
@@ -36,7 +33,7 @@ NS_DESIGNATED_INITIALIZER;
 /**
  * The end type of the condition.
  */
-@property (nonatomic, assign) ConditionEnd endType;
+@property (nonatomic, assign) EffectEnd endType;
 /**
  * A value associated with the 'endType' of the condition that helps the encounter manager determine if the end type
  * requirement has been satisfied.
@@ -49,15 +46,15 @@ NS_DESIGNATED_INITIALIZER;
 /**
  * The source of the condition.
  */
-@property (nonatomic, assign) ConditionSource source;
+@property (nonatomic, assign) EffectSource source;
 /**
  * The type of the condition.
  */
-@property (nonatomic, assign) ConditionType type;
+@property (nonatomic, assign) EffectType type;
 /**
  * A set of values that indicate who is affected by the condition.
  */
-@property (nonatomic, assign) ConditionAffects affects;
+@property (nonatomic, assign) EffectTargets affects;
 
 // -- Relationships --
 

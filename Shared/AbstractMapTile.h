@@ -7,6 +7,7 @@
 //
 
 @import Foundation;
+#import "MapConstants.h"
 
 
 /**
@@ -14,23 +15,36 @@
  */
 @interface AbstractMapTile : NSObject
 
+// -- Initializers --
+
 // -- Attributes --
 
 /**
- *
+ * Data representing the image to be rendered in the tile's bounds.
  */
 @property (nonatomic, nonnull, copy) NSData* data;
+
 /**
- *
+ * Indicates the scale factor that should be applied to the image data before rendering. This may be
+ * in addition to any scaling this applied due to zooming or other display effects by the map
+ * renderer.
  */
 @property (nonatomic, assign) float scale;
+
 /**
- *
+ * The location of this tile, using Cartesian coordinates.
  */
-@property (nonatomic, assign) NSInteger x;
+@property (nonatomic, assign) float x;
+
 /**
- *
+ * The location of this tile, using inverted Cartesian coordinates (positive Y goes down the axis
+ * instead of up).
  */
-@property (nonatomic, assign) NSInteger y;
+@property (nonatomic, assign) float y;
+
+/**
+ * Indicates the display layer where this tile is rendered.
+ */
+@property (nonatomic, assign) MapLayer layer;
 
 @end

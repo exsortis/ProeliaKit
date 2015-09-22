@@ -15,29 +15,34 @@
 @class EncounterRegionTemplate;
 
 /**
- * An instance of this class represents an encounter template that can be activated and run.
+ * An instance of this class represents an encounter template that can be converted to a 
+ * runnable encounter. This object type is used to store encounter information for planning.
  */
 @interface EncounterTemplate : AbstractEncounter
+
+// -- Initializers --
 
 // -- Attributes --
 
 /**
- *
+ * Indicates whether the user has marked this encounter template as a favorite.
  */
 @property (nonatomic, assign) BOOL favorite;
 
 // -- Relationships --
 
 /**
- *
+ * A collection of maps associated with this encounter.
  */
 @property (nonatomic, nonnull, copy) NSArray<EncounterMapTemplate*>* maps;
+
 /**
- *
+ * A collection of participants associated with this encounter.
  */
 @property (nonatomic, nonnull, copy) NSArray<EncounterParticipantTemplate*>* participants;
+
 /**
- *
+ * A collection of regions associated with this encounter.
  */
 @property (nonatomic, nonnull, copy) NSArray<EncounterRegionTemplate*>* regions;
 

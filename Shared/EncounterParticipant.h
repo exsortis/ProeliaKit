@@ -15,18 +15,23 @@
 @class EncounterParticipant;
 
 /**
- * This class serves as the base class for maps in both active and prepared encounters.
+ * An instance of this class represents a participant that is part of an encounter.
  */
 @interface EncounterParticipant : AbstractParticipant
+
+// -- Initializers --
 
 // -- Attributes --
 
 /**
- *
+ * The actual position of the participant in the initiative order. This is an internal tracking
+ * value that a UI can use to know where to put the participant when arranging them visually.
  */
 @property (nonatomic, assign) NSInteger actualOrder;
+
 /**
- *
+ * The status of the participant in the encounter. This value helps the encounter manager know
+ * whether the participant's turn is "skipped".
  */
 @property (nonatomic, assign) EncounterStatus status;
 
@@ -37,9 +42,10 @@
  * applied by the game system due to rules, or that may be inherited by the participant from being inside of a region that
  * has conditions.
  */
-@property (nonatomic, nonnull, copy) NSArray<Condition*>* conditions;
+@property (nonatomic, nonnull, copy) NSArray<Effect*>* conditions;
+
 /**
- *
+ * A collection of participant IDs that are being targeted by this participant.
  */
 @property (nonatomic, nonnull, copy) NSArray<NSString*>* targetIds;
 

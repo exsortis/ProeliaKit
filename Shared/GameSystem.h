@@ -10,7 +10,7 @@
 #import "ConditionProvider.h"
 
 
-@class Condition;
+@class Effect;
 @class EncounterParticipant;
 
 /**
@@ -111,7 +111,7 @@ typedef NS_ENUM(NSInteger, EncounterState) {
  * @param event The event context
  * @return A boolean indicating whether the condition should be applied
  */
-- (BOOL)shouldApplyCondition:(Condition*)condition
+- (BOOL)shouldApplyCondition:(Effect*)condition
               forParticipant:(EncounterParticipant*)participant
                  duringEvent:(GameSystemEvent)event;
 

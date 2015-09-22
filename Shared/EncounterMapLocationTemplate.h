@@ -10,12 +10,14 @@
 #import "AbstractMapLocation.h"
 
 
-@class ConditionTemplate;
+@class EffectTemplate;
 
 /**
  * An instance of this class represents an arbitrary location on the map.
  */
 @interface EncounterMapLocationTemplate : AbstractMapLocation
+
+// -- Initializers --
 
 // -- Attributes --
 
@@ -24,6 +26,6 @@
 /**
  *
  */
-@property (nonatomic, nonnull, copy) NSArray<ConditionTemplate*>* conditions;
+@property (nonatomic, nonnull, copy) NSArray<EffectTemplate*>* conditions;
 
 @end

@@ -17,41 +17,23 @@
 
 // -- Initializers --
 
-- (nonnull instancetype)initWithEncounter:(nonnull NSString*)encounterId
-NS_DESIGNATED_INITIALIZER;
-
 // -- Attributes --
 
 /**
- *
+ * A string that stores arbitrary information about the log entry.
  */
 @property (nonatomic, nonnull, copy) NSString *details;
+
 /**
- *
- */
-@property (nonatomic, assign) NSTimeInterval started;
-/**
- *
- */
-@property (nonatomic, assign) NSTimeInterval ended;
-/**
- *
+ * Stores the round in which the recorded activity occurred.
  */
 @property (nonatomic, assign) NSInteger round;
 
 // -- Relationships --
 
 /**
- *
+ * A collection of IDs of participants with which this event is associated.
  */
-@property (nonatomic, nonnull, copy) NSString* encounterId;
-/**
- *
- */
-@property (nonatomic, nullable, copy) NSString* participantId;
-/**
- *
- */
-@property (nonatomic, nonnull, copy) NSArray<NSString*>* targetIds;
+@property (nonatomic, nonnull, copy) NSArray<NSString*>* participantIds;
 
 @end

@@ -11,12 +11,4 @@
 
 @implementation AbstractEncounter
 
-- (instancetype)initWithName:(NSString *)name {
-    self = [super initWithName:name];
-    if(self) {
-    }
-
-    return self;
-}
-
 @end

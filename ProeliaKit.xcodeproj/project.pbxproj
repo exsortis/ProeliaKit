@@ -21,6 +21,10 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		5B02A2611BB1E2B900D907BD /* BaseValueObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B02A25F1BB1E2B900D907BD /* BaseValueObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B02A2621BB1E2B900D907BD /* BaseValueObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B02A25F1BB1E2B900D907BD /* BaseValueObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B02A2631BB1E2B900D907BD /* BaseValueObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B02A2601BB1E2B900D907BD /* BaseValueObject.m */; };
+		5B02A2641BB1E2B900D907BD /* BaseValueObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B02A2601BB1E2B900D907BD /* BaseValueObject.m */; };
 		5B072E091AAB789000F1DCEF /* ProeliaKitMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B072DD11AAB787D00F1DCEF /* ProeliaKitMobileTests.m */; };
 		5B072E0C1AAB78A600F1DCEF /* ProeliaKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B072DD71AAB787D00F1DCEF /* ProeliaKitTests.m */; };
 		5B072E0E1AAB78BD00F1DCEF /* AbstractMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B072DD91AAB787D00F1DCEF /* AbstractMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,8 +49,8 @@
 		5B072E211AAB78BD00F1DCEF /* EncounterParticipant.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B072DEC1AAB787D00F1DCEF /* EncounterParticipant.m */; };
 		5B072E221AAB78BD00F1DCEF /* EncounterRegion.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B072DED1AAB787D00F1DCEF /* EncounterRegion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B072E231AAB78BD00F1DCEF /* EncounterRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B072DEE1AAB787E00F1DCEF /* EncounterRegion.m */; };
-		5B072E241AAB78BD00F1DCEF /* Condition.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B072DEF1AAB787E00F1DCEF /* Condition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B072E251AAB78BD00F1DCEF /* Condition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B072DF01AAB787E00F1DCEF /* Condition.m */; };
+		5B072E241AAB78BD00F1DCEF /* Effect.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B072DEF1AAB787E00F1DCEF /* Effect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B072E251AAB78BD00F1DCEF /* Effect.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B072DF01AAB787E00F1DCEF /* Effect.m */; };
 		5B072E281AAB78BD00F1DCEF /* ConditionProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B072DF31AAB787E00F1DCEF /* ConditionProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B072E291AAB78BD00F1DCEF /* EncounterConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B072DF41AAB787E00F1DCEF /* EncounterConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B072E2A1AAB78BD00F1DCEF /* EncounterConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B072DF51AAB787E00F1DCEF /* EncounterConstants.m */; };
@@ -85,8 +89,8 @@
 		5B072E501AAB78BE00F1DCEF /* EncounterParticipant.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B072DEC1AAB787D00F1DCEF /* EncounterParticipant.m */; };
 		5B072E511AAB78BE00F1DCEF /* EncounterRegion.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B072DED1AAB787D00F1DCEF /* EncounterRegion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B072E521AAB78BE00F1DCEF /* EncounterRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B072DEE1AAB787E00F1DCEF /* EncounterRegion.m */; };
-		5B072E531AAB78BE00F1DCEF /* Condition.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B072DEF1AAB787E00F1DCEF /* Condition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B072E541AAB78BE00F1DCEF /* Condition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B072DF01AAB787E00F1DCEF /* Condition.m */; };
+		5B072E531AAB78BE00F1DCEF /* Effect.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B072DEF1AAB787E00F1DCEF /* Effect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B072E541AAB78BE00F1DCEF /* Effect.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B072DF01AAB787E00F1DCEF /* Effect.m */; };
 		5B072E571AAB78BE00F1DCEF /* ConditionProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B072DF31AAB787E00F1DCEF /* ConditionProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B072E581AAB78BE00F1DCEF /* EncounterConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B072DF41AAB787E00F1DCEF /* EncounterConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B072E591AAB78BE00F1DCEF /* EncounterConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B072DF51AAB787E00F1DCEF /* EncounterConstants.m */; };
@@ -134,14 +138,14 @@
 		5BEE35BB1BABA97400FDC0CE /* NamedValueObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE35B91BABA97400FDC0CE /* NamedValueObject.m */; };
 		5BEE35D41BAF3E3100FDC0CE /* NamedValueObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BEE35B81BABA97400FDC0CE /* NamedValueObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BEE35D51BAF3ECF00FDC0CE /* NamedValueObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE35B91BABA97400FDC0CE /* NamedValueObject.m */; };
-		5BEE35E81BB1047C00FDC0CE /* ConditionTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BEE35E61BB1047C00FDC0CE /* ConditionTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5BEE35E91BB1047C00FDC0CE /* ConditionTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE35E71BB1047C00FDC0CE /* ConditionTemplate.m */; };
-		5BEE35EC1BB104A200FDC0CE /* ConditionConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BEE35EA1BB104A200FDC0CE /* ConditionConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5BEE35ED1BB104A200FDC0CE /* ConditionConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE35EB1BB104A200FDC0CE /* ConditionConstants.m */; };
-		5BEE35EE1BB1052900FDC0CE /* ConditionTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BEE35E61BB1047C00FDC0CE /* ConditionTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5BEE35EF1BB1053000FDC0CE /* ConditionTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE35E71BB1047C00FDC0CE /* ConditionTemplate.m */; };
-		5BEE35F01BB1053900FDC0CE /* ConditionConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BEE35EA1BB104A200FDC0CE /* ConditionConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5BEE35F11BB1054000FDC0CE /* ConditionConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE35EB1BB104A200FDC0CE /* ConditionConstants.m */; };
+		5BEE35E81BB1047C00FDC0CE /* EffectTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BEE35E61BB1047C00FDC0CE /* EffectTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BEE35E91BB1047C00FDC0CE /* EffectTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE35E71BB1047C00FDC0CE /* EffectTemplate.m */; };
+		5BEE35EC1BB104A200FDC0CE /* EffectConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BEE35EA1BB104A200FDC0CE /* EffectConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BEE35ED1BB104A200FDC0CE /* EffectConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE35EB1BB104A200FDC0CE /* EffectConstants.m */; };
+		5BEE35EE1BB1052900FDC0CE /* EffectTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BEE35E61BB1047C00FDC0CE /* EffectTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BEE35EF1BB1053000FDC0CE /* EffectTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE35E71BB1047C00FDC0CE /* EffectTemplate.m */; };
+		5BEE35F01BB1053900FDC0CE /* EffectConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BEE35EA1BB104A200FDC0CE /* EffectConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BEE35F11BB1054000FDC0CE /* EffectConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE35EB1BB104A200FDC0CE /* EffectConstants.m */; };
 		5BEE35F41BB1092D00FDC0CE /* MapConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BEE35F21BB1092D00FDC0CE /* MapConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BEE35F51BB1092D00FDC0CE /* MapConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BEE35F21BB1092D00FDC0CE /* MapConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BEE35F61BB1092D00FDC0CE /* MapConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE35F31BB1092D00FDC0CE /* MapConstants.m */; };
@@ -170,6 +174,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B02A25F1BB1E2B900D907BD /* BaseValueObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseValueObject.h; sourceTree = "<group>"; };
+		5B02A2601BB1E2B900D907BD /* BaseValueObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseValueObject.m; sourceTree = "<group>"; };
 		5B072DCE1AAB787D00F1DCEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B072DD01AAB787D00F1DCEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B072DD11AAB787D00F1DCEF /* ProeliaKitMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProeliaKitMobileTests.m; sourceTree = "<group>"; };
@@ -198,8 +204,8 @@
 		5B072DEC1AAB787D00F1DCEF /* EncounterParticipant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncounterParticipant.m; sourceTree = "<group>"; };
 		5B072DED1AAB787D00F1DCEF /* EncounterRegion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncounterRegion.h; sourceTree = "<group>"; };
 		5B072DEE1AAB787E00F1DCEF /* EncounterRegion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncounterRegion.m; sourceTree = "<group>"; };
-		5B072DEF1AAB787E00F1DCEF /* Condition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Condition.h; sourceTree = "<group>"; };
-		5B072DF01AAB787E00F1DCEF /* Condition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Condition.m; sourceTree = "<group>"; };
+		5B072DEF1AAB787E00F1DCEF /* Effect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Effect.h; sourceTree = "<group>"; };
+		5B072DF01AAB787E00F1DCEF /* Effect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Effect.m; sourceTree = "<group>"; };
 		5B072DF31AAB787E00F1DCEF /* ConditionProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConditionProvider.h; sourceTree = "<group>"; };
 		5B072DF41AAB787E00F1DCEF /* EncounterConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncounterConstants.h; sourceTree = "<group>"; };
 		5B072DF51AAB787E00F1DCEF /* EncounterConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncounterConstants.m; sourceTree = "<group>"; };
@@ -244,10 +250,10 @@
 		5BE4A8A81AA3AC74005F3D4A /* ProeliaKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProeliaKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BEE35B81BABA97400FDC0CE /* NamedValueObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NamedValueObject.h; sourceTree = "<group>"; };
 		5BEE35B91BABA97400FDC0CE /* NamedValueObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NamedValueObject.m; sourceTree = "<group>"; };
-		5BEE35E61BB1047C00FDC0CE /* ConditionTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConditionTemplate.h; sourceTree = "<group>"; };
-		5BEE35E71BB1047C00FDC0CE /* ConditionTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConditionTemplate.m; sourceTree = "<group>"; };
-		5BEE35EA1BB104A200FDC0CE /* ConditionConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConditionConstants.h; sourceTree = "<group>"; };
-		5BEE35EB1BB104A200FDC0CE /* ConditionConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConditionConstants.m; sourceTree = "<group>"; };
+		5BEE35E61BB1047C00FDC0CE /* EffectTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EffectTemplate.h; sourceTree = "<group>"; };
+		5BEE35E71BB1047C00FDC0CE /* EffectTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EffectTemplate.m; sourceTree = "<group>"; };
+		5BEE35EA1BB104A200FDC0CE /* EffectConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EffectConstants.h; sourceTree = "<group>"; };
+		5BEE35EB1BB104A200FDC0CE /* EffectConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EffectConstants.m; sourceTree = "<group>"; };
 		5BEE35F21BB1092D00FDC0CE /* MapConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapConstants.h; sourceTree = "<group>"; };
 		5BEE35F31BB1092D00FDC0CE /* MapConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapConstants.m; sourceTree = "<group>"; };
 		5BEE35F81BB109D500FDC0CE /* ParticipantConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticipantConstants.h; sourceTree = "<group>"; };
@@ -355,8 +361,8 @@
 		5B072E791AAB933A00F1DCEF /* Constants */ = {
 			isa = PBXGroup;
 			children = (
-				5BEE35EA1BB104A200FDC0CE /* ConditionConstants.h */,
-				5BEE35EB1BB104A200FDC0CE /* ConditionConstants.m */,
+				5BEE35EA1BB104A200FDC0CE /* EffectConstants.h */,
+				5BEE35EB1BB104A200FDC0CE /* EffectConstants.m */,
 				5B072DF41AAB787E00F1DCEF /* EncounterConstants.h */,
 				5B072DF51AAB787E00F1DCEF /* EncounterConstants.m */,
 				5BEE35F21BB1092D00FDC0CE /* MapConstants.h */,
@@ -383,10 +389,10 @@
 				5BEE35D61BAF4FF700FDC0CE /* Base */,
 				5B7EFDBE1BA4A3EC0099A621 /* Campaign.h */,
 				5B7EFDBF1BA4A3EC0099A621 /* Campaign.m */,
-				5B072DEF1AAB787E00F1DCEF /* Condition.h */,
-				5BEE35E61BB1047C00FDC0CE /* ConditionTemplate.h */,
-				5BEE35E71BB1047C00FDC0CE /* ConditionTemplate.m */,
-				5B072DF01AAB787E00F1DCEF /* Condition.m */,
+				5B072DEF1AAB787E00F1DCEF /* Effect.h */,
+				5B072DF01AAB787E00F1DCEF /* Effect.m */,
+				5BEE35E61BB1047C00FDC0CE /* EffectTemplate.h */,
+				5BEE35E71BB1047C00FDC0CE /* EffectTemplate.m */,
 				5B072DE11AAB787D00F1DCEF /* Encounter.h */,
 				5B072DE21AAB787D00F1DCEF /* Encounter.m */,
 				5B7EFDC41BA4A3F50099A621 /* EncounterGroup.h */,
@@ -469,6 +475,8 @@
 			children = (
 				5B7EFDB21BA4A34E0099A621 /* AuditableValueObject.h */,
 				5B7EFDB31BA4A34E0099A621 /* AuditableValueObject.m */,
+				5B02A25F1BB1E2B900D907BD /* BaseValueObject.h */,
+				5B02A2601BB1E2B900D907BD /* BaseValueObject.m */,
 				5B7EFDB81BA4A39F0099A621 /* IdValueObject.h */,
 				5B7EFDB91BA4A39F0099A621 /* IdValueObject.m */,
 				5BEE35B81BABA97400FDC0CE /* NamedValueObject.h */,
@@ -506,9 +514,10 @@
 				5B072E6F1AAB83A600F1DCEF /* AbstractRegion.h in Headers */,
 				5B072E411AAB78BE00F1DCEF /* AbstractMapTile.h in Headers */,
 				5B072E631AAB78BE00F1DCEF /* EncounterMapLocationTemplate.h in Headers */,
-				5BEE35F01BB1053900FDC0CE /* ConditionConstants.h in Headers */,
+				5BEE35F01BB1053900FDC0CE /* EffectConstants.h in Headers */,
 				5B072E5A1AAB78BE00F1DCEF /* GameSystem.h in Headers */,
 				5B072E3F1AAB78BE00F1DCEF /* AbstractMapLocation.h in Headers */,
+				5B02A2621BB1E2B900D907BD /* BaseValueObject.h in Headers */,
 				5BB9F9041BA4B14D006FBDCA /* ProeliaKit-umbrella.h in Headers */,
 				5B7EFDC11BA4A3EC0099A621 /* Campaign.h in Headers */,
 				5B072E691AAB78BE00F1DCEF /* EncounterRegionTemplate.h in Headers */,
@@ -520,7 +529,7 @@
 				5B7EFDB51BA4A34E0099A621 /* AuditableValueObject.h in Headers */,
 				5B7EFDBB1BA4A39F0099A621 /* IdValueObject.h in Headers */,
 				5B072E651AAB78BE00F1DCEF /* EncounterMapTileTemplate.h in Headers */,
-				5BEE35EE1BB1052900FDC0CE /* ConditionTemplate.h in Headers */,
+				5BEE35EE1BB1052900FDC0CE /* EffectTemplate.h in Headers */,
 				5BB9F90E1BA4D045006FBDCA /* AbstractEncounter.h in Headers */,
 				5B072E4B1AAB78BE00F1DCEF /* EncounterMapLocation.h in Headers */,
 				5B072E511AAB78BE00F1DCEF /* EncounterRegion.h in Headers */,
@@ -529,7 +538,7 @@
 				5B072E671AAB78BE00F1DCEF /* EncounterParticipantTemplate.h in Headers */,
 				5BEE35D41BAF3E3100FDC0CE /* NamedValueObject.h in Headers */,
 				5B072E5F1AAB78BE00F1DCEF /* EncounterTemplate.h in Headers */,
-				5B072E531AAB78BE00F1DCEF /* Condition.h in Headers */,
+				5B072E531AAB78BE00F1DCEF /* Effect.h in Headers */,
 				5B072E491AAB78BE00F1DCEF /* EncounterMap.h in Headers */,
 				5B072E4F1AAB78BE00F1DCEF /* EncounterParticipant.h in Headers */,
 				5B7EFDC71BA4A3F50099A621 /* EncounterGroup.h in Headers */,
@@ -548,12 +557,12 @@
 				5B072E341AAB78BD00F1DCEF /* EncounterMapLocationTemplate.h in Headers */,
 				5B072E2B1AAB78BD00F1DCEF /* GameSystem.h in Headers */,
 				5BEE35F41BB1092D00FDC0CE /* MapConstants.h in Headers */,
-				5BEE35EC1BB104A200FDC0CE /* ConditionConstants.h in Headers */,
+				5BEE35EC1BB104A200FDC0CE /* EffectConstants.h in Headers */,
 				5B072E101AAB78BD00F1DCEF /* AbstractMapLocation.h in Headers */,
 				5B7EFDC01BA4A3EC0099A621 /* Campaign.h in Headers */,
 				5BEE35FA1BB109D500FDC0CE /* ParticipantConstants.h in Headers */,
 				5B072E3A1AAB78BD00F1DCEF /* EncounterRegionTemplate.h in Headers */,
-				5BEE35E81BB1047C00FDC0CE /* ConditionTemplate.h in Headers */,
+				5BEE35E81BB1047C00FDC0CE /* EffectTemplate.h in Headers */,
 				5B072E1E1AAB78BD00F1DCEF /* EncounterMapTile.h in Headers */,
 				5B072E141AAB78BD00F1DCEF /* AbstractParticipant.h in Headers */,
 				5B072E321AAB78BD00F1DCEF /* EncounterMapTemplate.h in Headers */,
@@ -569,12 +578,13 @@
 				5B072E381AAB78BD00F1DCEF /* EncounterParticipantTemplate.h in Headers */,
 				5BEE35BA1BABA97400FDC0CE /* NamedValueObject.h in Headers */,
 				5B072E301AAB78BD00F1DCEF /* EncounterTemplate.h in Headers */,
-				5B072E241AAB78BD00F1DCEF /* Condition.h in Headers */,
+				5B072E241AAB78BD00F1DCEF /* Effect.h in Headers */,
 				5B072E1A1AAB78BD00F1DCEF /* EncounterMap.h in Headers */,
 				5B072E201AAB78BD00F1DCEF /* EncounterParticipant.h in Headers */,
 				5B7EFDC61BA4A3F50099A621 /* EncounterGroup.h in Headers */,
 				5B072E0E1AAB78BD00F1DCEF /* AbstractMap.h in Headers */,
 				5B072E291AAB78BD00F1DCEF /* EncounterConstants.h in Headers */,
+				5B02A2611BB1E2B900D907BD /* BaseValueObject.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -762,13 +772,14 @@
 				5BB9F9101BA4D045006FBDCA /* AbstractEncounter.m in Sources */,
 				5B072E591AAB78BE00F1DCEF /* EncounterConstants.m in Sources */,
 				5B072E501AAB78BE00F1DCEF /* EncounterParticipant.m in Sources */,
+				5B02A2641BB1E2B900D907BD /* BaseValueObject.m in Sources */,
 				5B7EFDB71BA4A34E0099A621 /* AuditableValueObject.m in Sources */,
-				5BEE35EF1BB1053000FDC0CE /* ConditionTemplate.m in Sources */,
+				5BEE35EF1BB1053000FDC0CE /* EffectTemplate.m in Sources */,
 				5BEE35FD1BB109D500FDC0CE /* ParticipantConstants.m in Sources */,
 				5B072E681AAB78BE00F1DCEF /* EncounterParticipantTemplate.m in Sources */,
 				5B072E6A1AAB78BE00F1DCEF /* EncounterRegionTemplate.m in Sources */,
 				5B072E601AAB78BE00F1DCEF /* EncounterTemplate.m in Sources */,
-				5B072E541AAB78BE00F1DCEF /* Condition.m in Sources */,
+				5B072E541AAB78BE00F1DCEF /* Effect.m in Sources */,
 				5B072E3E1AAB78BE00F1DCEF /* AbstractMap.m in Sources */,
 				5B072E4A1AAB78BE00F1DCEF /* EncounterMap.m in Sources */,
 				5B072E401AAB78BE00F1DCEF /* AbstractMapLocation.m in Sources */,
@@ -782,7 +793,7 @@
 				5B072E711AAB83A600F1DCEF /* AbstractRegion.m in Sources */,
 				5B072E441AAB78BE00F1DCEF /* AbstractParticipant.m in Sources */,
 				5B072E481AAB78BE00F1DCEF /* EncounterTimelineEntry.m in Sources */,
-				5BEE35F11BB1054000FDC0CE /* ConditionConstants.m in Sources */,
+				5BEE35F11BB1054000FDC0CE /* EffectConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -807,13 +818,14 @@
 				5BB9F90F1BA4D045006FBDCA /* AbstractEncounter.m in Sources */,
 				5B072E2A1AAB78BD00F1DCEF /* EncounterConstants.m in Sources */,
 				5B072E211AAB78BD00F1DCEF /* EncounterParticipant.m in Sources */,
+				5B02A2631BB1E2B900D907BD /* BaseValueObject.m in Sources */,
 				5B7EFDB61BA4A34E0099A621 /* AuditableValueObject.m in Sources */,
-				5BEE35E91BB1047C00FDC0CE /* ConditionTemplate.m in Sources */,
+				5BEE35E91BB1047C00FDC0CE /* EffectTemplate.m in Sources */,
 				5BEE35FC1BB109D500FDC0CE /* ParticipantConstants.m in Sources */,
 				5B072E391AAB78BD00F1DCEF /* EncounterParticipantTemplate.m in Sources */,
 				5B072E3B1AAB78BD00F1DCEF /* EncounterRegionTemplate.m in Sources */,
 				5B072E311AAB78BD00F1DCEF /* EncounterTemplate.m in Sources */,
-				5B072E251AAB78BD00F1DCEF /* Condition.m in Sources */,
+				5B072E251AAB78BD00F1DCEF /* Effect.m in Sources */,
 				5B072E0F1AAB78BD00F1DCEF /* AbstractMap.m in Sources */,
 				5B072E1B1AAB78BD00F1DCEF /* EncounterMap.m in Sources */,
 				5B072E111AAB78BD00F1DCEF /* AbstractMapLocation.m in Sources */,
@@ -827,7 +839,7 @@
 				5B072E701AAB83A600F1DCEF /* AbstractRegion.m in Sources */,
 				5B072E151AAB78BD00F1DCEF /* AbstractParticipant.m in Sources */,
 				5B072E191AAB78BD00F1DCEF /* EncounterTimelineEntry.m in Sources */,
-				5BEE35ED1BB104A200FDC0CE /* ConditionConstants.m in Sources */,
+				5BEE35ED1BB104A200FDC0CE /* EffectConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

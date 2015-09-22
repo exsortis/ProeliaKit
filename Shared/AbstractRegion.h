@@ -7,15 +7,17 @@
 //
 
 @import Foundation;
-#import "NamedValueObject.h"
+#import "BaseValueObject.h"
 
 
-@class Condition;
+@class Effect;
 
 /**
  * This class serves as the base class for regions in both encounters and encounter templates.
  */
-@interface AbstractRegion : NamedValueObject
+@interface AbstractRegion : BaseValueObject
+
+// -- Initializers --
 
 // -- Attributes --
 
@@ -24,33 +26,39 @@
  * color value.
  */
 @property (nonatomic, copy) NSString *color;
+
 /**
  * The width of the region, expressed in map squares, along a Cartesian X axis.
  */
 @property (nonatomic, assign) NSUInteger width;
+
 /**
  * The height of the region, expressed in map squares, along a Cartesian Y axis.
  */
 @property (nonatomic, assign) NSUInteger height;
+
 /**
  * The depth of the region, expressed in map squares, along a Cartesian Z axis.
  */
 @property (nonatomic, assign) NSUInteger depth;
+
 /**
  * The location of the upper-left corner of the region, expressed in map squares (but allowing for fractional
  * placement), along a Cartesian X axis.
  */
-@property (nonatomic, assign) double x;
+@property (nonatomic, assign) float x;
+
 /**
  * The location of the upper-left corner of the region, expressed in map squares (but allowing for fractional
  * placement), along an inverted Cartesian Y axis.
  */
-@property (nonatomic, assign) double y;
+@property (nonatomic, assign) float y;
+
 /**
  * The location of the upper-left corner of the region, expressed in map squares (but allowing for fractional
  * placement), along a Cartesian Z axis.
  */
-@property (nonatomic, assign) double z;
+@property (nonatomic, assign) float z;
 
 // -- Relationships --
 

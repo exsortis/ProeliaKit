@@ -7,22 +7,32 @@
 //
 
 @import Foundation;
-#import "NamedValueObject.h"
+#import "BaseValueObject.h"
 
 
 @class Campaign;
 @class Encounter;
 @class EncounterTemplate;
 
-@interface EncounterGroup : NamedValueObject
+/**
+ * A collection of encounters and encounter templates.
+ */
+@interface EncounterGroup : BaseValueObject
+
+// -- Initializers --
+
+// -- Attributes --
 
 /**
- *
+ * A collection of encounters in the group.
  */
 @property (nonatomic, nonnull, copy) NSArray<Encounter*>* encounters;
+
 /**
- *
+ * A collection of encounter templates in the group.
  */
 @property (nonatomic, nonnull, copy) NSArray<EncounterTemplate*>* templates;
+
+// -- Relationships --
 
 @end

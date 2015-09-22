@@ -10,13 +10,14 @@
 #import "AbstractParticipant.h"
 
 
-@class EncounterTemplate;
-@class ConditionTemplate;
+@class EffectTemplate;
 
 /**
  * An instance of this class represents a participant that is part of an encounter template.
  */
 @interface EncounterParticipantTemplate : AbstractParticipant
+
+// -- Initializers --
 
 // -- Attributes --
 
@@ -27,6 +28,6 @@
  * applied by the game system due to rules, or that may be inherited by the participant from being inside of a region that
  * has conditions.
  */
-@property (nonatomic, nonnull, copy) NSArray<ConditionTemplate*>* conditions;
+@property (nonatomic, nonnull, copy) NSArray<EffectTemplate*>* conditions;
 
 @end

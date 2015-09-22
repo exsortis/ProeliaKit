@@ -8,18 +8,17 @@
 
 @import Foundation;
 #import "EncounterConstants.h"
-#import "NamedValueObject.h"
+#import "BaseValueObject.h"
 
 
-@class EncounterMap;
-@class EncounterParticipant;
-@class EncounterRegion;
-@class EncounterTimelineEntry;
+/**
+ * An abstract object that contains common properties for all encounters.
+ */
+@interface AbstractEncounter : BaseValueObject
 
-@interface AbstractEncounter : NamedValueObject
+// -- Initializers --
 
 // -- Attributes --
-
 
 // -- Relationships --
 

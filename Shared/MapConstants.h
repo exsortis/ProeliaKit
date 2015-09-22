@@ -28,3 +28,16 @@ typedef NS_ENUM(NSInteger, LineStyle) {
     LineStyleDotted,
 };
 
+/**
+ */
+typedef NS_ENUM(NSInteger, MapLayer) {
+    /**
+     */
+MapLayerGM,
+    /**
+     */
+    MapLayerPlayer,
+    /**
+     */
+    MapLayerAll,
+};

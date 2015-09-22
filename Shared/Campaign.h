@@ -7,23 +7,29 @@
 //
 
 @import Foundation;
-#import "NamedValueObject.h"
+#import "BaseValueObject.h"
 
 
 @class EncounterGroup;
 
-@interface Campaign : NamedValueObject
+@interface Campaign : BaseValueObject
 
-- (nonnull instancetype)initWithName:(nonnull NSString*)name
-NS_DESIGNATED_INITIALIZER;
+// -- Initializers --
+
+// -- Attributes --
 
 /**
- *
+ * Stores the identifier of the game system used for this campaign.
  */
 @property (nonatomic, nonnull, copy) NSString *gameSystemName;
+
 /**
- *
+ * A collection of encounter groups belonging to the campaign.
+ * A campaign has at least one encounter group, the "default" group, where un-grouped encounters
+ * are placed.
  */
 @property (nonatomic, nonnull, copy) NSArray<EncounterGroup*>* groups;
+
+// -- Relationships --
 
 @end

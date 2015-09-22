@@ -11,35 +11,43 @@
 
 /**
  * This class serves as the base class for map location in both map locations and map location templates.
+ * TODO: what is this class used for?
  */
 @interface AbstractMapLocation : NSObject
+
+// -- Initializers --
 
 // -- Attributes --
 
 /**
- *
+ * The width of the location, in map squares.
  */
 @property (nonatomic, assign) NSInteger width;
+
 /**
- *
+ * The height of the location, in map squares.
  */
 @property (nonatomic, assign) NSInteger height;
+
 /**
- *
+ * The depth of the location, in map squares.
  */
 @property (nonatomic, assign) NSInteger depth;
+
+/**
+ * The position of the location along the Cartesian X axis.
+ */
+@property (nonatomic, assign) float x;
+
 /**
  *
  */
-@property (nonatomic, assign) NSInteger x;
+@property (nonatomic, assign) float y;
+
 /**
  *
  */
-@property (nonatomic, assign) NSInteger y;
-/**
- *
- */
-@property (nonatomic, assign) NSInteger z;
+@property (nonatomic, assign) float z;
 
 // -- Relationships --
 
