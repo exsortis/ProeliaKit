@@ -33,8 +33,14 @@
 // -- Relationships --
 
 /**
+ * A collection of conditions that are directly applied to the participant. These do not include conditions that may be
+ * applied by the game system due to rules, or that may be inherited by the participant from being inside of a region that
+ * has conditions.
+ */
+@property (nonatomic, nonnull, copy) NSArray<Condition*>* conditions;
+/**
  *
  */
-@property (nonatomic, copy) NSArray<EncounterParticipant*>* targets;
+@property (nonatomic, nonnull, copy) NSArray<NSString*>* targetIds;
 
 @end

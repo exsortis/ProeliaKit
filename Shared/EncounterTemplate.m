@@ -11,4 +11,16 @@
 
 @implementation EncounterTemplate
 
+- (instancetype)initWithName:(NSString *)name {
+    self = [super initWithName:name];
+    if(self) {
+        self.favorite = NO;
+        self.maps = @[];
+        self.participants = @[];
+        self.regions = @[];
+    }
+
+    return self;
+}
+
 @end

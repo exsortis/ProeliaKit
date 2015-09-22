@@ -11,6 +11,7 @@
 
 
 @class EncounterTemplate;
+@class ConditionTemplate;
 
 /**
  * An instance of this class represents a two-dimensional area of an arbitrary size and
@@ -21,5 +22,11 @@
 // -- Attributes --
 
 // -- Relationships --
+
+/**
+ * A collection of conditions that are associated with the region. These are generally used by the game
+ * system to be applied to participants that are within the region.
+ */
+@property (nonatomic, copy) NSArray<ConditionTemplate*>* conditions;
 
 @end

@@ -1,9 +1,9 @@
 //
-//  Condition.h
+//  ConditionTemplate.h
 //  ProeliaKit
 //
-//  Created by Paul Schifferer on 3/5/15.
-//  Copyright (c) 2015 Pilgrimage Software. All rights reserved.
+//  Created by Paul Schifferer on 9/21/15.
+//  Copyright © 2015 Pilgrimage Software. All rights reserved.
 //
 
 @import Foundation;
@@ -15,7 +15,7 @@
  * An instance of this class represents an effect that is or can be applied to something
  * in an encounter.
  */
-@interface Condition : NamedValueObject
+@interface ConditionTemplate : NamedValueObject
 
 // -- Initializers --
 
@@ -29,11 +29,7 @@ NS_DESIGNATED_INITIALIZER;
  */
 @property (nonatomic, nonnull, copy) NSString* adjustment;
 /**
- * A boolean flag indicating whether the condition should be applied.
- */
-@property (nonatomic, assign) BOOL applied;
-/**
- * A boolean flag indicating that the condition was created by the game master, instead of supplied as part of the 
+ * A boolean flag indicating that the condition was created by the game master, instead of supplied as part of the
  * game system's package.
  */
 @property (nonatomic, assign) BOOL custom;

@@ -11,6 +11,7 @@
 
 
 @class Encounter;
+@class Condition;
 
 /**
  * This class serves as the base class for maps in both active and prepared encounters.
@@ -20,5 +21,11 @@
 // -- Attributes --
 
 // -- Relationships --
+
+/**
+ * A collection of conditions that are associated with the region. These are generally used by the game
+ * system to be applied to participants that are within the region.
+ */
+@property (nonatomic, copy) NSArray<Condition*>* conditions;
 
 @end

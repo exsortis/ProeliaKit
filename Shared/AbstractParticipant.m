@@ -11,11 +11,16 @@
 
 @implementation AbstractParticipant
 
-- (instancetype)init {
-    self = [super init];
+- (instancetype)initWithName:(NSString *)name {
+    self = [super initWithName:name];
     if(self) {
-        self.notes = @"";
-        self.conditions = @[];
+        self.marker = @"";
+        self.healthData = [@"{}" dataUsingEncoding:NSUTF8StringEncoding];
+        self.color = @"000000";
+        self.size = 1;
+        self.order = 0;
+        self.type = ParticipantTypePC;
+        self.tag = @"";
     }
 
     return self;

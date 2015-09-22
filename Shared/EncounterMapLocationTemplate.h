@@ -10,6 +10,8 @@
 #import "AbstractMapLocation.h"
 
 
+@class ConditionTemplate;
+
 /**
  * An instance of this class represents an arbitrary location on the map.
  */
@@ -18,5 +20,10 @@
 // -- Attributes --
 
 // -- Relationships --
+
+/**
+ *
+ */
+@property (nonatomic, nonnull, copy) NSArray<ConditionTemplate*>* conditions;
 
 @end

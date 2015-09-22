@@ -7,22 +7,22 @@
 //
 
 @import Foundation;
-#import "BaseIdObject.h"
+#import "NamedValueObject.h"
 
 
 @class Campaign;
 @class Encounter;
 @class EncounterTemplate;
 
-@interface EncounterGroup : BaseIdObject
+@interface EncounterGroup : NamedValueObject
 
 /**
  *
  */
-@property (nonatomic, copy) NSArray<Encounter*>* encounters;
+@property (nonatomic, nonnull, copy) NSArray<Encounter*>* encounters;
 /**
  *
  */
-@property (nonatomic, copy) NSArray<EncounterTemplate*>* templates;
+@property (nonatomic, nonnull, copy) NSArray<EncounterTemplate*>* templates;
 
 @end

@@ -11,10 +11,13 @@
 
 @implementation EncounterParticipant
 
-- (instancetype)init {
-    self = [super init];
+- (instancetype)initWithName:(NSString *)name {
+    self = [super initWithName:name];
     if(self) {
-        self.targets = @[];
+        self.actualOrder = 0;
+        self.status = EncounterStatusActive;
+        self.targetIds = @[];
+        self.conditions = @[];
     }
 
     return self;

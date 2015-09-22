@@ -12,6 +12,8 @@
 
 @class Encounter;
 @class EncounterMapTile;
+@class EncounterMapLocation;
+@class Condition;
 
 /**
  * An instance of this class represents a map associated with an encounter.
@@ -25,6 +27,15 @@
 /**
  * A collection of tiles that are part of this map.
  */
-@property (nonatomic, copy) NSArray<EncounterMapTile*>* tiles;
+@property (nonatomic, nonnull, copy) NSArray<EncounterMapTile*>* tiles;
+/**
+ * A collection of location objects that are part of the map.
+ */
+@property (nonatomic, nonnull, copy) NSArray<EncounterMapLocation*>* locations;
+/**
+ *
+ */
+@property (nonatomic, nonnull, copy) NSArray<Condition*>* conditions;
+
 
 @end

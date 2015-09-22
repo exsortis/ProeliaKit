@@ -10,6 +10,8 @@
 #import "AbstractMapLocation.h"
 
 
+@class Condition;
+
 /**
  * An instance of this class represents a ...
  */
@@ -18,5 +20,10 @@
 // -- Attributes --
 
 // -- Relationships --
+
+/**
+ *
+ */
+@property (nonatomic, nonnull, copy) NSArray<Condition*>* conditions;
 
 @end

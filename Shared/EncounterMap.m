@@ -11,11 +11,11 @@
 
 @implementation EncounterMap
 
-- (instancetype)init {
-    self = [super init];
+- (instancetype)initWithName:(NSString *)name {
+    self = [super initWithName:name];
     if(self) {
-        self.notes = @"";
         self.tiles = @[];
+        self.locations = @[];
     }
 
     return self;

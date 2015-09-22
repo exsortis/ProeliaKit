@@ -10,6 +10,10 @@
 #import "AbstractEncounter.h"
 
 
+@class EncounterMapTemplate;
+@class EncounterParticipantTemplate;
+@class EncounterRegionTemplate;
+
 /**
  * An instance of this class represents an encounter template that can be activated and run.
  */
@@ -23,5 +27,18 @@
 @property (nonatomic, assign) BOOL favorite;
 
 // -- Relationships --
+
+/**
+ *
+ */
+@property (nonatomic, nonnull, copy) NSArray<EncounterMapTemplate*>* maps;
+/**
+ *
+ */
+@property (nonatomic, nonnull, copy) NSArray<EncounterParticipantTemplate*>* participants;
+/**
+ *
+ */
+@property (nonatomic, nonnull, copy) NSArray<EncounterRegionTemplate*>* regions;
 
 @end

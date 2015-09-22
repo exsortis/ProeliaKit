@@ -14,7 +14,12 @@
 - (instancetype)init {
     self = [super init];
     if(self) {
-        self.conditions = @[];
+        self.height = 1;
+        self.width = 1;
+        self.depth = 1;
+        self.x = 0;
+        self.y = 0;
+        self.z = 0;
     }
 
     return self;

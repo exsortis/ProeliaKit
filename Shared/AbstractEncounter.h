@@ -8,7 +8,7 @@
 
 @import Foundation;
 #import "EncounterConstants.h"
-#import "BaseIdObject.h"
+#import "NamedValueObject.h"
 
 
 @class EncounterMap;
@@ -16,32 +16,11 @@
 @class EncounterRegion;
 @class EncounterTimelineEntry;
 
-@interface AbstractEncounter : BaseIdObject
+@interface AbstractEncounter : NamedValueObject
 
 // -- Attributes --
 
-/**
- *
- */
-@property (nonatomic, copy) NSString *notes;
 
 // -- Relationships --
-
-/**
- *
- */
-@property (nonatomic, copy) NSArray<EncounterMap*>* maps;
-/**
- *
- */
-@property (nonatomic, copy) NSArray<EncounterParticipant*>* participants;
-/**
- *
- */
-@property (nonatomic, copy) NSArray<EncounterRegion*>* regions;
-/**
- *
- */
-@property (nonatomic, copy) NSArray<EncounterTimelineEntry*>* timeline;
 
 @end

@@ -1,5 +1,5 @@
 //
-//  Auditable.h
+//  IdValueObject.h
 //  ProeliaKit
 //
 //  Created by Paul Schifferer on 9/12/15.
@@ -7,17 +7,14 @@
 //
 
 @import Foundation;
+#import "AuditableValueObject.h"
 
 
-@interface Auditable : NSObject
+@interface IdValueObject : AuditableValueObject
 
 /**
  *
  */
-@property (nonatomic, assign) NSTimeInterval created;
-/**
- *
- */
-@property (nonatomic, assign) NSTimeInterval modified;
+@property (nonatomic, nonnull, copy) NSString *uuid;
 
 @end

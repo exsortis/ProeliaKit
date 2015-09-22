@@ -7,22 +7,29 @@
 //
 
 @import Foundation;
+#import "IdValueObject.h"
 
-
-@class Encounter;
-@class EncounterParticipant;
 
 /**
  * An instance of this class represents a log entry in the associated encounter.
  */
-@interface EncounterTimelineEntry : NSObject
+@interface EncounterTimelineEntry : IdValueObject
+
+// -- Initializers --
+
+- (nonnull instancetype)initWithEncounter:(nonnull NSString*)encounterId
+NS_DESIGNATED_INITIALIZER;
 
 // -- Attributes --
 
 /**
  *
  */
-@property (nonatomic, copy) NSString *details;
+@property (nonatomic, nonnull, copy) NSString *details;
+/**
+ *
+ */
+@property (nonatomic, assign) NSTimeInterval started;
 /**
  *
  */
@@ -30,29 +37,21 @@
 /**
  *
  */
-@property (nonatomic, copy) NSString *notes;
-/**
- *
- */
 @property (nonatomic, assign) NSInteger round;
-/**
- *
- */
-@property (nonatomic, assign) NSTimeInterval started;
 
 // -- Relationships --
 
 /**
  *
  */
-@property (nonatomic, weak) Encounter* encounter;
+@property (nonatomic, nonnull, copy) NSString* encounterId;
 /**
  *
  */
-@property (nonatomic, weak) EncounterParticipant* participant;
+@property (nonatomic, nullable, copy) NSString* participantId;
 /**
  *
  */
-@property (nonatomic, copy) NSArray* targets; // [EncounterParticipant]
+@property (nonatomic, nonnull, copy) NSArray<NSString*>* targetIds;
 
 @end

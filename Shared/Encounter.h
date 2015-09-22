@@ -22,6 +22,12 @@
  */
 @interface Encounter : AbstractEncounter
 
+// -- Initializers --
+
+- (nonnull instancetype)initWithName:(nonnull NSString*)name
+                          templateId:(nonnull NSString*)templateId
+NS_DESIGNATED_INITIALIZER;
+
 // -- Attributes --
 
 /**
@@ -43,10 +49,6 @@
 /**
  *
  */
-@property (nonatomic, copy) NSString *encounterTemplateName;
-/**
- *
- */
 @property (nonatomic, assign) NSTimeInterval startDate;
 /**
  *
@@ -55,12 +57,28 @@
 /**
  *
  */
-@property (nonatomic, copy) NSData *turnQueue;
+@property (nonatomic, nonnull, copy) NSData *turnQueue;
 
 // -- Relationships --
 
 /**
  */
-@property (nonatomic, copy) NSString* templateId;
+@property (nonatomic, nonnull, copy) NSString* templateId;
+/**
+ *
+ */
+@property (nonatomic, nonnull, copy) NSArray<EncounterMap*>* maps;
+/**
+ *
+ */
+@property (nonatomic, nonnull, copy) NSArray<EncounterParticipant*>* participants;
+/**
+ *
+ */
+@property (nonatomic, nonnull, copy) NSArray<EncounterRegion*>* regions;
+/**
+ *
+ */
+@property (nonatomic, nonnull, copy) NSArray<EncounterTimelineEntry*>* timeline;
 
 @end

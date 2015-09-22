@@ -11,11 +11,10 @@
 
 @implementation AbstractMap
 
-- (instancetype)init {
-    self = [super init];
+- (instancetype)initWithName:(NSString *)name {
+    self = [super initWithName:name];
     if(self) {
-        self.notes = @"";
-        self.locations = @[];
+        self.gridLineColor = @"000000";
         self.scale = 1;
     }
 

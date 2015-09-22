@@ -11,12 +11,10 @@
 
 @implementation Campaign
 
-- (instancetype)init {
-    self = [super init];
+- (instancetype)initWithName:(NSString *)name {
+    self = [super initWithName:name];
     if(self) {
-        self.notes = @"";
         self.gameSystemName = @"none";
-        self.local = YES;
         self.groups = @[];
     }
 

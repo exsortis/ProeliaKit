@@ -19,7 +19,7 @@
 /**
  *
  */
-@property (nonatomic, copy) NSData* data;
+@property (nonatomic, nonnull, copy) NSData* data;
 /**
  *
  */

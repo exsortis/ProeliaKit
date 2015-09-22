@@ -11,10 +11,11 @@
 
 @implementation EncounterGroup
 
-- (instancetype)init {
-    self = [super init];
+- (instancetype)initWithName:(NSString *)name {
+    self = [super initWithName:name];
     if(self) {
         self.encounters = @[];
+        self.templates = @[];
     }
 
     return self;

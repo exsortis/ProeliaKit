@@ -11,4 +11,13 @@
 
 @implementation EncounterMapLocationTemplate
 
+- (instancetype)init {
+    self = [super init];
+    if(self) {
+        self.conditions = @[];
+    }
+
+    return self;
+}
+
 @end

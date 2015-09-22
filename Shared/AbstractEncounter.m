@@ -11,14 +11,9 @@
 
 @implementation AbstractEncounter
 
-- (instancetype)init {
-    self = [super init];
+- (instancetype)initWithName:(NSString *)name {
+    self = [super initWithName:name];
     if(self) {
-        self.notes = @"";
-        self.maps = @[];
-        self.participants = @[];
-        self.regions = @[];
-        self.timeline = @[];
     }
 
     return self;

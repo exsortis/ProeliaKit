@@ -1,21 +1,22 @@
 //
-//  BaseIdObject.m
+//  AuditableValueObject.m
 //  ProeliaKit
 //
 //  Created by Paul Schifferer on 9/12/15.
 //  Copyright © 2015 Pilgrimage Software. All rights reserved.
 //
 
-#import "BaseIdObject.h"
+#import "AuditableValueObject.h"
 
 
-@implementation BaseIdObject
+@implementation AuditableValueObject
 
 - (instancetype)init {
     self = [super init];
     if(self) {
-        self.name = @"";
-        self.uuid = [[NSUUID UUID] UUIDString];
+        NSTimeInterval now = [[NSDate date] timeIntervalSince1970];
+        self.created = now;
+        self.modified = now;
     }
 
     return self;

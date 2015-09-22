@@ -17,7 +17,10 @@ FOUNDATION_EXPORT const unsigned char ProeliaKitVersionString[];
 
 // -- Constants --
 
+#import "ConditionConstants.h"
 #import "EncounterConstants.h"
+#import "MapConstants.h"
+#import "ParticipantConstants.h"
 
 // -- Protocols --
 
@@ -25,27 +28,20 @@ FOUNDATION_EXPORT const unsigned char ProeliaKitVersionString[];
 
 // -- Value objects --
 
-#import "Auditable.h"
-#import "BaseIdObject.h"
-#import "AbstractEncounter.h"
-#import "AbstractMap.h"
-#import "AbstractMapLocation.h"
-#import "AbstractMapTile.h"
-#import "AbstractParticipant.h"
-#import "AbstractRegion.h"
 #import "Campaign.h"
-#import "EncounterGroup.h"
+#import "Condition.h"
+#import "ConditionTemplate.h"
 #import "Encounter.h"
-#import "EncounterTimelineEntry.h"
+#import "EncounterGroup.h"
 #import "EncounterMap.h"
 #import "EncounterMapLocation.h"
 #import "EncounterMapTile.h"
-#import "EncounterParticipant.h"
-#import "EncounterRegion.h"
-#import "Condition.h"
-#import "EncounterTemplate.h"
-#import "EncounterMapTemplate.h"
 #import "EncounterMapLocationTemplate.h"
+#import "EncounterMapTemplate.h"
 #import "EncounterMapTileTemplate.h"
+#import "EncounterParticipant.h"
 #import "EncounterParticipantTemplate.h"
+#import "EncounterRegion.h"
 #import "EncounterRegionTemplate.h"
+#import "EncounterTemplate.h"
+#import "EncounterTimelineEntry.h"

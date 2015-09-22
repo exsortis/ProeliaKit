@@ -7,28 +7,23 @@
 //
 
 @import Foundation;
-#import "BaseIdObject.h"
+#import "NamedValueObject.h"
 
 
 @class EncounterGroup;
 
-@interface Campaign : BaseIdObject
+@interface Campaign : NamedValueObject
+
+- (nonnull instancetype)initWithName:(nonnull NSString*)name
+NS_DESIGNATED_INITIALIZER;
 
 /**
  *
  */
-@property (nonatomic, copy) NSString* notes;
+@property (nonatomic, nonnull, copy) NSString *gameSystemName;
 /**
  *
  */
-@property (nonatomic, copy) NSString *gameSystemName;
-/**
- *
- */
-@property (nonatomic, assign) BOOL local;
-/**
- *
- */
-@property (nonatomic, copy) NSArray<EncounterGroup*>* groups;
+@property (nonatomic, nonnull, copy) NSArray<EncounterGroup*>* groups;
 
 @end

@@ -11,4 +11,13 @@
 
 @implementation EncounterRegionTemplate
 
+- (instancetype)initWithName:(NSString *)name {
+    self = [super initWithName:name];
+    if(self) {
+        self.conditions = @[];
+    }
+
+    return self;
+}
+
 @end

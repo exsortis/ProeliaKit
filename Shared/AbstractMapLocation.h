@@ -9,9 +9,6 @@
 @import Foundation;
 
 
-@class AbstractMap;
-@class Condition;
-
 /**
  * This class serves as the base class for map location in both map locations and map location templates.
  */
@@ -22,11 +19,15 @@
 /**
  *
  */
+@property (nonatomic, assign) NSInteger width;
+/**
+ *
+ */
 @property (nonatomic, assign) NSInteger height;
 /**
  *
  */
-@property (nonatomic, assign) NSInteger width;
+@property (nonatomic, assign) NSInteger depth;
 /**
  *
  */
@@ -41,10 +42,5 @@
 @property (nonatomic, assign) NSInteger z;
 
 // -- Relationships --
-
-/**
- *
- */
-@property (nonatomic, copy) NSArray<Condition*>* conditions;
 
 @end

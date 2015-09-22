@@ -11,11 +11,16 @@
 
 @implementation AbstractRegion
 
-- (instancetype)init {
-    self = [super init];
+- (instancetype)initWithName:(NSString *)name {
+    self = [super initWithName:name];
     if(self) {
-        self.notes = @"";
-        self.conditions = @[];
+        self.color = @"000000";
+        self.width = 1;
+        self.height = 1;
+        self.depth = 1;
+        self.x = 0;
+        self.y = 0;
+        self.z = 0;
     }
 
     return self;

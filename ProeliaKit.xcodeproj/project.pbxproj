@@ -108,14 +108,14 @@
 		5B072E701AAB83A600F1DCEF /* AbstractRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B072E6D1AAB83A600F1DCEF /* AbstractRegion.m */; };
 		5B072E711AAB83A600F1DCEF /* AbstractRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B072E6D1AAB83A600F1DCEF /* AbstractRegion.m */; };
 		5B161E891AA80DDC009A6087 /* ProeliaKitMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B161E7E1AA80DDC009A6087 /* ProeliaKitMobile.framework */; };
-		5B7EFDB41BA4A34E0099A621 /* Auditable.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B7EFDB21BA4A34E0099A621 /* Auditable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B7EFDB51BA4A34E0099A621 /* Auditable.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B7EFDB21BA4A34E0099A621 /* Auditable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B7EFDB61BA4A34E0099A621 /* Auditable.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7EFDB31BA4A34E0099A621 /* Auditable.m */; };
-		5B7EFDB71BA4A34E0099A621 /* Auditable.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7EFDB31BA4A34E0099A621 /* Auditable.m */; };
-		5B7EFDBA1BA4A39F0099A621 /* BaseIdObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B7EFDB81BA4A39F0099A621 /* BaseIdObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B7EFDBB1BA4A39F0099A621 /* BaseIdObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B7EFDB81BA4A39F0099A621 /* BaseIdObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B7EFDBC1BA4A39F0099A621 /* BaseIdObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7EFDB91BA4A39F0099A621 /* BaseIdObject.m */; };
-		5B7EFDBD1BA4A39F0099A621 /* BaseIdObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7EFDB91BA4A39F0099A621 /* BaseIdObject.m */; };
+		5B7EFDB41BA4A34E0099A621 /* AuditableValueObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B7EFDB21BA4A34E0099A621 /* AuditableValueObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B7EFDB51BA4A34E0099A621 /* AuditableValueObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B7EFDB21BA4A34E0099A621 /* AuditableValueObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B7EFDB61BA4A34E0099A621 /* AuditableValueObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7EFDB31BA4A34E0099A621 /* AuditableValueObject.m */; };
+		5B7EFDB71BA4A34E0099A621 /* AuditableValueObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7EFDB31BA4A34E0099A621 /* AuditableValueObject.m */; };
+		5B7EFDBA1BA4A39F0099A621 /* IdValueObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B7EFDB81BA4A39F0099A621 /* IdValueObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B7EFDBB1BA4A39F0099A621 /* IdValueObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B7EFDB81BA4A39F0099A621 /* IdValueObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B7EFDBC1BA4A39F0099A621 /* IdValueObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7EFDB91BA4A39F0099A621 /* IdValueObject.m */; };
+		5B7EFDBD1BA4A39F0099A621 /* IdValueObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7EFDB91BA4A39F0099A621 /* IdValueObject.m */; };
 		5B7EFDC01BA4A3EC0099A621 /* Campaign.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B7EFDBE1BA4A3EC0099A621 /* Campaign.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B7EFDC11BA4A3EC0099A621 /* Campaign.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B7EFDBE1BA4A3EC0099A621 /* Campaign.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B7EFDC21BA4A3EC0099A621 /* Campaign.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7EFDBF1BA4A3EC0099A621 /* Campaign.m */; };
@@ -130,6 +130,26 @@
 		5BB9F90F1BA4D045006FBDCA /* AbstractEncounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB9F90C1BA4D045006FBDCA /* AbstractEncounter.m */; };
 		5BB9F9101BA4D045006FBDCA /* AbstractEncounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB9F90C1BA4D045006FBDCA /* AbstractEncounter.m */; };
 		5BE4A8A91AA3AC74005F3D4A /* ProeliaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE4A89D1AA3AC74005F3D4A /* ProeliaKit.framework */; };
+		5BEE35BA1BABA97400FDC0CE /* NamedValueObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BEE35B81BABA97400FDC0CE /* NamedValueObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BEE35BB1BABA97400FDC0CE /* NamedValueObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE35B91BABA97400FDC0CE /* NamedValueObject.m */; };
+		5BEE35D41BAF3E3100FDC0CE /* NamedValueObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BEE35B81BABA97400FDC0CE /* NamedValueObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BEE35D51BAF3ECF00FDC0CE /* NamedValueObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE35B91BABA97400FDC0CE /* NamedValueObject.m */; };
+		5BEE35E81BB1047C00FDC0CE /* ConditionTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BEE35E61BB1047C00FDC0CE /* ConditionTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BEE35E91BB1047C00FDC0CE /* ConditionTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE35E71BB1047C00FDC0CE /* ConditionTemplate.m */; };
+		5BEE35EC1BB104A200FDC0CE /* ConditionConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BEE35EA1BB104A200FDC0CE /* ConditionConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BEE35ED1BB104A200FDC0CE /* ConditionConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE35EB1BB104A200FDC0CE /* ConditionConstants.m */; };
+		5BEE35EE1BB1052900FDC0CE /* ConditionTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BEE35E61BB1047C00FDC0CE /* ConditionTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BEE35EF1BB1053000FDC0CE /* ConditionTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE35E71BB1047C00FDC0CE /* ConditionTemplate.m */; };
+		5BEE35F01BB1053900FDC0CE /* ConditionConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BEE35EA1BB104A200FDC0CE /* ConditionConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BEE35F11BB1054000FDC0CE /* ConditionConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE35EB1BB104A200FDC0CE /* ConditionConstants.m */; };
+		5BEE35F41BB1092D00FDC0CE /* MapConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BEE35F21BB1092D00FDC0CE /* MapConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BEE35F51BB1092D00FDC0CE /* MapConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BEE35F21BB1092D00FDC0CE /* MapConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BEE35F61BB1092D00FDC0CE /* MapConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE35F31BB1092D00FDC0CE /* MapConstants.m */; };
+		5BEE35F71BB1092D00FDC0CE /* MapConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE35F31BB1092D00FDC0CE /* MapConstants.m */; };
+		5BEE35FA1BB109D500FDC0CE /* ParticipantConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BEE35F81BB109D500FDC0CE /* ParticipantConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BEE35FB1BB109D500FDC0CE /* ParticipantConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BEE35F81BB109D500FDC0CE /* ParticipantConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BEE35FC1BB109D500FDC0CE /* ParticipantConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE35F91BB109D500FDC0CE /* ParticipantConstants.m */; };
+		5BEE35FD1BB109D500FDC0CE /* ParticipantConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE35F91BB109D500FDC0CE /* ParticipantConstants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -206,10 +226,10 @@
 		5B161EA51AA80E68009A6087 /* Release-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Release-iOS.xcconfig"; sourceTree = "<group>"; };
 		5B161EA61AA80E70009A6087 /* Release-Mac.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Release-Mac.xcconfig"; sourceTree = "<group>"; };
 		5B6321C01AACDA8B0067EA7E /* doc-header.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "doc-header.md"; sourceTree = "<group>"; };
-		5B7EFDB21BA4A34E0099A621 /* Auditable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Auditable.h; sourceTree = "<group>"; };
-		5B7EFDB31BA4A34E0099A621 /* Auditable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Auditable.m; sourceTree = "<group>"; };
-		5B7EFDB81BA4A39F0099A621 /* BaseIdObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseIdObject.h; sourceTree = "<group>"; };
-		5B7EFDB91BA4A39F0099A621 /* BaseIdObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseIdObject.m; sourceTree = "<group>"; };
+		5B7EFDB21BA4A34E0099A621 /* AuditableValueObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuditableValueObject.h; sourceTree = "<group>"; };
+		5B7EFDB31BA4A34E0099A621 /* AuditableValueObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuditableValueObject.m; sourceTree = "<group>"; };
+		5B7EFDB81BA4A39F0099A621 /* IdValueObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdValueObject.h; sourceTree = "<group>"; };
+		5B7EFDB91BA4A39F0099A621 /* IdValueObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdValueObject.m; sourceTree = "<group>"; };
 		5B7EFDBE1BA4A3EC0099A621 /* Campaign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Campaign.h; sourceTree = "<group>"; };
 		5B7EFDBF1BA4A3EC0099A621 /* Campaign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Campaign.m; sourceTree = "<group>"; };
 		5B7EFDC41BA4A3F50099A621 /* EncounterGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncounterGroup.h; sourceTree = "<group>"; };
@@ -222,6 +242,16 @@
 		5BB9F90C1BA4D045006FBDCA /* AbstractEncounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractEncounter.m; sourceTree = "<group>"; };
 		5BE4A89D1AA3AC74005F3D4A /* ProeliaKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProeliaKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE4A8A81AA3AC74005F3D4A /* ProeliaKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProeliaKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BEE35B81BABA97400FDC0CE /* NamedValueObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NamedValueObject.h; sourceTree = "<group>"; };
+		5BEE35B91BABA97400FDC0CE /* NamedValueObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NamedValueObject.m; sourceTree = "<group>"; };
+		5BEE35E61BB1047C00FDC0CE /* ConditionTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConditionTemplate.h; sourceTree = "<group>"; };
+		5BEE35E71BB1047C00FDC0CE /* ConditionTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConditionTemplate.m; sourceTree = "<group>"; };
+		5BEE35EA1BB104A200FDC0CE /* ConditionConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConditionConstants.h; sourceTree = "<group>"; };
+		5BEE35EB1BB104A200FDC0CE /* ConditionConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConditionConstants.m; sourceTree = "<group>"; };
+		5BEE35F21BB1092D00FDC0CE /* MapConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapConstants.h; sourceTree = "<group>"; };
+		5BEE35F31BB1092D00FDC0CE /* MapConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapConstants.m; sourceTree = "<group>"; };
+		5BEE35F81BB109D500FDC0CE /* ParticipantConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticipantConstants.h; sourceTree = "<group>"; };
+		5BEE35F91BB109D500FDC0CE /* ParticipantConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticipantConstants.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -315,9 +345,9 @@
 		5B072DD81AAB787D00F1DCEF /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				5B072E7B1AAB936200F1DCEF /* Value Objects */,
 				5B072E791AAB933A00F1DCEF /* Constants */,
 				5B072E7A1AAB935400F1DCEF /* Protocols */,
+				5B072E7B1AAB936200F1DCEF /* Value Objects */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -325,8 +355,14 @@
 		5B072E791AAB933A00F1DCEF /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				5BEE35EA1BB104A200FDC0CE /* ConditionConstants.h */,
+				5BEE35EB1BB104A200FDC0CE /* ConditionConstants.m */,
 				5B072DF41AAB787E00F1DCEF /* EncounterConstants.h */,
 				5B072DF51AAB787E00F1DCEF /* EncounterConstants.m */,
+				5BEE35F21BB1092D00FDC0CE /* MapConstants.h */,
+				5BEE35F31BB1092D00FDC0CE /* MapConstants.m */,
+				5BEE35F81BB109D500FDC0CE /* ParticipantConstants.h */,
+				5BEE35F91BB109D500FDC0CE /* ParticipantConstants.m */,
 			);
 			name = Constants;
 			sourceTree = "<group>";
@@ -343,25 +379,13 @@
 		5B072E7B1AAB936200F1DCEF /* Value Objects */ = {
 			isa = PBXGroup;
 			children = (
-				5BB9F90B1BA4D045006FBDCA /* AbstractEncounter.h */,
-				5BB9F90C1BA4D045006FBDCA /* AbstractEncounter.m */,
-				5B072DD91AAB787D00F1DCEF /* AbstractMap.h */,
-				5B072DDA1AAB787D00F1DCEF /* AbstractMap.m */,
-				5B072DDB1AAB787D00F1DCEF /* AbstractMapLocation.h */,
-				5B072DDC1AAB787D00F1DCEF /* AbstractMapLocation.m */,
-				5B072DDD1AAB787D00F1DCEF /* AbstractMapTile.h */,
-				5B072DDE1AAB787D00F1DCEF /* AbstractMapTile.m */,
-				5B072DDF1AAB787D00F1DCEF /* AbstractParticipant.h */,
-				5B072DE01AAB787D00F1DCEF /* AbstractParticipant.m */,
-				5B072E6C1AAB83A600F1DCEF /* AbstractRegion.h */,
-				5B072E6D1AAB83A600F1DCEF /* AbstractRegion.m */,
-				5B7EFDB21BA4A34E0099A621 /* Auditable.h */,
-				5B7EFDB31BA4A34E0099A621 /* Auditable.m */,
-				5B7EFDB81BA4A39F0099A621 /* BaseIdObject.h */,
-				5B7EFDB91BA4A39F0099A621 /* BaseIdObject.m */,
+				5BEE35D71BAF500200FDC0CE /* Abstract Objects */,
+				5BEE35D61BAF4FF700FDC0CE /* Base */,
 				5B7EFDBE1BA4A3EC0099A621 /* Campaign.h */,
 				5B7EFDBF1BA4A3EC0099A621 /* Campaign.m */,
 				5B072DEF1AAB787E00F1DCEF /* Condition.h */,
+				5BEE35E61BB1047C00FDC0CE /* ConditionTemplate.h */,
+				5BEE35E71BB1047C00FDC0CE /* ConditionTemplate.m */,
 				5B072DF01AAB787E00F1DCEF /* Condition.m */,
 				5B072DE11AAB787D00F1DCEF /* Encounter.h */,
 				5B072DE21AAB787D00F1DCEF /* Encounter.m */,
@@ -440,6 +464,38 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		5BEE35D61BAF4FF700FDC0CE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5B7EFDB21BA4A34E0099A621 /* AuditableValueObject.h */,
+				5B7EFDB31BA4A34E0099A621 /* AuditableValueObject.m */,
+				5B7EFDB81BA4A39F0099A621 /* IdValueObject.h */,
+				5B7EFDB91BA4A39F0099A621 /* IdValueObject.m */,
+				5BEE35B81BABA97400FDC0CE /* NamedValueObject.h */,
+				5BEE35B91BABA97400FDC0CE /* NamedValueObject.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		5BEE35D71BAF500200FDC0CE /* Abstract Objects */ = {
+			isa = PBXGroup;
+			children = (
+				5BB9F90B1BA4D045006FBDCA /* AbstractEncounter.h */,
+				5BB9F90C1BA4D045006FBDCA /* AbstractEncounter.m */,
+				5B072DD91AAB787D00F1DCEF /* AbstractMap.h */,
+				5B072DDA1AAB787D00F1DCEF /* AbstractMap.m */,
+				5B072DDB1AAB787D00F1DCEF /* AbstractMapLocation.h */,
+				5B072DDC1AAB787D00F1DCEF /* AbstractMapLocation.m */,
+				5B072DDD1AAB787D00F1DCEF /* AbstractMapTile.h */,
+				5B072DDE1AAB787D00F1DCEF /* AbstractMapTile.m */,
+				5B072DDF1AAB787D00F1DCEF /* AbstractParticipant.h */,
+				5B072DE01AAB787D00F1DCEF /* AbstractParticipant.m */,
+				5B072E6C1AAB83A600F1DCEF /* AbstractRegion.h */,
+				5B072E6D1AAB83A600F1DCEF /* AbstractRegion.m */,
+			);
+			name = "Abstract Objects";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -450,6 +506,7 @@
 				5B072E6F1AAB83A600F1DCEF /* AbstractRegion.h in Headers */,
 				5B072E411AAB78BE00F1DCEF /* AbstractMapTile.h in Headers */,
 				5B072E631AAB78BE00F1DCEF /* EncounterMapLocationTemplate.h in Headers */,
+				5BEE35F01BB1053900FDC0CE /* ConditionConstants.h in Headers */,
 				5B072E5A1AAB78BE00F1DCEF /* GameSystem.h in Headers */,
 				5B072E3F1AAB78BE00F1DCEF /* AbstractMapLocation.h in Headers */,
 				5BB9F9041BA4B14D006FBDCA /* ProeliaKit-umbrella.h in Headers */,
@@ -460,14 +517,17 @@
 				5B072E611AAB78BE00F1DCEF /* EncounterMapTemplate.h in Headers */,
 				5B072E571AAB78BE00F1DCEF /* ConditionProvider.h in Headers */,
 				5B072E451AAB78BE00F1DCEF /* Encounter.h in Headers */,
-				5B7EFDB51BA4A34E0099A621 /* Auditable.h in Headers */,
-				5B7EFDBB1BA4A39F0099A621 /* BaseIdObject.h in Headers */,
+				5B7EFDB51BA4A34E0099A621 /* AuditableValueObject.h in Headers */,
+				5B7EFDBB1BA4A39F0099A621 /* IdValueObject.h in Headers */,
 				5B072E651AAB78BE00F1DCEF /* EncounterMapTileTemplate.h in Headers */,
+				5BEE35EE1BB1052900FDC0CE /* ConditionTemplate.h in Headers */,
 				5BB9F90E1BA4D045006FBDCA /* AbstractEncounter.h in Headers */,
 				5B072E4B1AAB78BE00F1DCEF /* EncounterMapLocation.h in Headers */,
 				5B072E511AAB78BE00F1DCEF /* EncounterRegion.h in Headers */,
 				5B072E471AAB78BE00F1DCEF /* EncounterTimelineEntry.h in Headers */,
+				5BEE35FB1BB109D500FDC0CE /* ParticipantConstants.h in Headers */,
 				5B072E671AAB78BE00F1DCEF /* EncounterParticipantTemplate.h in Headers */,
+				5BEE35D41BAF3E3100FDC0CE /* NamedValueObject.h in Headers */,
 				5B072E5F1AAB78BE00F1DCEF /* EncounterTemplate.h in Headers */,
 				5B072E531AAB78BE00F1DCEF /* Condition.h in Headers */,
 				5B072E491AAB78BE00F1DCEF /* EncounterMap.h in Headers */,
@@ -475,6 +535,7 @@
 				5B7EFDC71BA4A3F50099A621 /* EncounterGroup.h in Headers */,
 				5B072E3D1AAB78BE00F1DCEF /* AbstractMap.h in Headers */,
 				5B072E581AAB78BE00F1DCEF /* EncounterConstants.h in Headers */,
+				5BEE35F51BB1092D00FDC0CE /* MapConstants.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,22 +547,27 @@
 				5B072E121AAB78BD00F1DCEF /* AbstractMapTile.h in Headers */,
 				5B072E341AAB78BD00F1DCEF /* EncounterMapLocationTemplate.h in Headers */,
 				5B072E2B1AAB78BD00F1DCEF /* GameSystem.h in Headers */,
+				5BEE35F41BB1092D00FDC0CE /* MapConstants.h in Headers */,
+				5BEE35EC1BB104A200FDC0CE /* ConditionConstants.h in Headers */,
 				5B072E101AAB78BD00F1DCEF /* AbstractMapLocation.h in Headers */,
 				5B7EFDC01BA4A3EC0099A621 /* Campaign.h in Headers */,
+				5BEE35FA1BB109D500FDC0CE /* ParticipantConstants.h in Headers */,
 				5B072E3A1AAB78BD00F1DCEF /* EncounterRegionTemplate.h in Headers */,
+				5BEE35E81BB1047C00FDC0CE /* ConditionTemplate.h in Headers */,
 				5B072E1E1AAB78BD00F1DCEF /* EncounterMapTile.h in Headers */,
 				5B072E141AAB78BD00F1DCEF /* AbstractParticipant.h in Headers */,
 				5B072E321AAB78BD00F1DCEF /* EncounterMapTemplate.h in Headers */,
 				5B072E281AAB78BD00F1DCEF /* ConditionProvider.h in Headers */,
 				5B072E161AAB78BD00F1DCEF /* Encounter.h in Headers */,
-				5B7EFDB41BA4A34E0099A621 /* Auditable.h in Headers */,
-				5B7EFDBA1BA4A39F0099A621 /* BaseIdObject.h in Headers */,
+				5B7EFDB41BA4A34E0099A621 /* AuditableValueObject.h in Headers */,
+				5B7EFDBA1BA4A39F0099A621 /* IdValueObject.h in Headers */,
 				5B072E361AAB78BD00F1DCEF /* EncounterMapTileTemplate.h in Headers */,
 				5B072E1C1AAB78BD00F1DCEF /* EncounterMapLocation.h in Headers */,
 				5BB9F90D1BA4D045006FBDCA /* AbstractEncounter.h in Headers */,
 				5B072E221AAB78BD00F1DCEF /* EncounterRegion.h in Headers */,
 				5B072E181AAB78BD00F1DCEF /* EncounterTimelineEntry.h in Headers */,
 				5B072E381AAB78BD00F1DCEF /* EncounterParticipantTemplate.h in Headers */,
+				5BEE35BA1BABA97400FDC0CE /* NamedValueObject.h in Headers */,
 				5B072E301AAB78BD00F1DCEF /* EncounterTemplate.h in Headers */,
 				5B072E241AAB78BD00F1DCEF /* Condition.h in Headers */,
 				5B072E1A1AAB78BD00F1DCEF /* EncounterMap.h in Headers */,
@@ -687,15 +753,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B7EFDBD1BA4A39F0099A621 /* BaseIdObject.m in Sources */,
+				5B7EFDBD1BA4A39F0099A621 /* IdValueObject.m in Sources */,
 				5B072E421AAB78BE00F1DCEF /* AbstractMapTile.m in Sources */,
 				5B072E4C1AAB78BE00F1DCEF /* EncounterMapLocation.m in Sources */,
+				5BEE35D51BAF3ECF00FDC0CE /* NamedValueObject.m in Sources */,
 				5B072E4E1AAB78BE00F1DCEF /* EncounterMapTile.m in Sources */,
 				5B072E521AAB78BE00F1DCEF /* EncounterRegion.m in Sources */,
 				5BB9F9101BA4D045006FBDCA /* AbstractEncounter.m in Sources */,
 				5B072E591AAB78BE00F1DCEF /* EncounterConstants.m in Sources */,
 				5B072E501AAB78BE00F1DCEF /* EncounterParticipant.m in Sources */,
-				5B7EFDB71BA4A34E0099A621 /* Auditable.m in Sources */,
+				5B7EFDB71BA4A34E0099A621 /* AuditableValueObject.m in Sources */,
+				5BEE35EF1BB1053000FDC0CE /* ConditionTemplate.m in Sources */,
+				5BEE35FD1BB109D500FDC0CE /* ParticipantConstants.m in Sources */,
 				5B072E681AAB78BE00F1DCEF /* EncounterParticipantTemplate.m in Sources */,
 				5B072E6A1AAB78BE00F1DCEF /* EncounterRegionTemplate.m in Sources */,
 				5B072E601AAB78BE00F1DCEF /* EncounterTemplate.m in Sources */,
@@ -706,12 +775,14 @@
 				5B072E461AAB78BE00F1DCEF /* Encounter.m in Sources */,
 				5B072E621AAB78BE00F1DCEF /* EncounterMapTemplate.m in Sources */,
 				5B7EFDC31BA4A3EC0099A621 /* Campaign.m in Sources */,
+				5BEE35F71BB1092D00FDC0CE /* MapConstants.m in Sources */,
 				5B072E661AAB78BE00F1DCEF /* EncounterMapTileTemplate.m in Sources */,
 				5B7EFDC91BA4A3F50099A621 /* EncounterGroup.m in Sources */,
 				5B072E641AAB78BE00F1DCEF /* EncounterMapLocationTemplate.m in Sources */,
 				5B072E711AAB83A600F1DCEF /* AbstractRegion.m in Sources */,
 				5B072E441AAB78BE00F1DCEF /* AbstractParticipant.m in Sources */,
 				5B072E481AAB78BE00F1DCEF /* EncounterTimelineEntry.m in Sources */,
+				5BEE35F11BB1054000FDC0CE /* ConditionConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -727,15 +798,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B7EFDBC1BA4A39F0099A621 /* BaseIdObject.m in Sources */,
+				5B7EFDBC1BA4A39F0099A621 /* IdValueObject.m in Sources */,
 				5B072E131AAB78BD00F1DCEF /* AbstractMapTile.m in Sources */,
 				5B072E1D1AAB78BD00F1DCEF /* EncounterMapLocation.m in Sources */,
+				5BEE35BB1BABA97400FDC0CE /* NamedValueObject.m in Sources */,
 				5B072E1F1AAB78BD00F1DCEF /* EncounterMapTile.m in Sources */,
 				5B072E231AAB78BD00F1DCEF /* EncounterRegion.m in Sources */,
 				5BB9F90F1BA4D045006FBDCA /* AbstractEncounter.m in Sources */,
 				5B072E2A1AAB78BD00F1DCEF /* EncounterConstants.m in Sources */,
 				5B072E211AAB78BD00F1DCEF /* EncounterParticipant.m in Sources */,
-				5B7EFDB61BA4A34E0099A621 /* Auditable.m in Sources */,
+				5B7EFDB61BA4A34E0099A621 /* AuditableValueObject.m in Sources */,
+				5BEE35E91BB1047C00FDC0CE /* ConditionTemplate.m in Sources */,
+				5BEE35FC1BB109D500FDC0CE /* ParticipantConstants.m in Sources */,
 				5B072E391AAB78BD00F1DCEF /* EncounterParticipantTemplate.m in Sources */,
 				5B072E3B1AAB78BD00F1DCEF /* EncounterRegionTemplate.m in Sources */,
 				5B072E311AAB78BD00F1DCEF /* EncounterTemplate.m in Sources */,
@@ -746,12 +820,14 @@
 				5B072E171AAB78BD00F1DCEF /* Encounter.m in Sources */,
 				5B072E331AAB78BD00F1DCEF /* EncounterMapTemplate.m in Sources */,
 				5B7EFDC21BA4A3EC0099A621 /* Campaign.m in Sources */,
+				5BEE35F61BB1092D00FDC0CE /* MapConstants.m in Sources */,
 				5B072E371AAB78BD00F1DCEF /* EncounterMapTileTemplate.m in Sources */,
 				5B7EFDC81BA4A3F50099A621 /* EncounterGroup.m in Sources */,
 				5B072E351AAB78BD00F1DCEF /* EncounterMapLocationTemplate.m in Sources */,
 				5B072E701AAB83A600F1DCEF /* AbstractRegion.m in Sources */,
 				5B072E151AAB78BD00F1DCEF /* AbstractParticipant.m in Sources */,
 				5B072E191AAB78BD00F1DCEF /* EncounterTimelineEntry.m in Sources */,
+				5BEE35ED1BB104A200FDC0CE /* ConditionConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
